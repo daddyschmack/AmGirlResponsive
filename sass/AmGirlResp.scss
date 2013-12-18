@@ -406,13 +406,17 @@ header{
         //background-image: url("../img/Img_Historical_Char_Main_noText.png");
         //background-repeat: no-repeat;
         //background-size: 472px 319px;
-        background: url("../img/Img_Historical_Char_Main_noText.png") center right no-repeat;
+       // background: url("../img/Img_Historical_Char_Main_noText.png") center right no-repeat;
       }
     }
     .div_gridHolder{
       white-space: pre;
       border:1px solid blue;
     }
+    .GridArea_2{
+      position: relative;
+      margin: 2% 0;
+  }
 
   }
 

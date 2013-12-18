@@ -7,7 +7,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/AmGirlResp.css" afterPath="$PROJECT_DIR$/stylesheets/AmGirlResp.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/AmGirlResp.scss" afterPath="$PROJECT_DIR$/sass/AmGirlResp.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/amGirlResp_5Col.html" afterPath="$PROJECT_DIR$/amGirlResp_5Col.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsiveGrid.html" afterPath="$PROJECT_DIR$/responsiveGrid.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AmGirlResponsive.iws" />
@@ -31,10 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AmGirlResp.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AmGirlResp.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="286" column="105" selection-start="6212" selection-end="6212" vertical-scroll-proportion="0.2996454" vertical-offset="4121" max-vertical-offset="10080">
+            <state line="417" column="12" selection-start="8673" selection-end="8673" vertical-scroll-proportion="-7.08" vertical-offset="5901" max-vertical-offset="10140">
               <folding />
             </state>
           </provider>
@@ -43,7 +42,7 @@
       <file leaf-file-name="AmGirlResp.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="508" column="0" selection-start="12472" selection-end="12472" vertical-scroll-proportion="0.0" vertical-offset="7284" max-vertical-offset="7710">
+            <state line="510" column="0" selection-start="12469" selection-end="12469" vertical-scroll-proportion="0.0" vertical-offset="7314" max-vertical-offset="7740">
               <folding />
             </state>
           </provider>
@@ -62,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="amGirlResp_5Col.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="amGirlResp_5Col.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/amGirlResp_5Col.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="27" selection-start="552" selection-end="552" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="4110">
+            <state line="151" column="62" selection-start="8235" selection-end="8235" vertical-scroll-proportion="0.27966103" vertical-offset="2100" max-vertical-offset="4080">
               <folding />
             </state>
           </provider>
@@ -92,7 +91,7 @@
       <file leaf-file-name="responsiveGrid.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/responsiveGrid.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="100" selection-start="433" selection-end="433" vertical-scroll-proportion="-1.3461539" vertical-offset="0" max-vertical-offset="2250">
+            <state line="5" column="1" selection-start="153" selection-end="256" vertical-scroll-proportion="-0.96153843" vertical-offset="0" max-vertical-offset="2250">
               <folding />
             </state>
           </provider>
@@ -101,7 +100,7 @@
       <file leaf-file-name="AmGirlResp.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/AmGirlResp.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="732" column="0" selection-start="16067" selection-end="16067" vertical-scroll-proportion="0.0" vertical-offset="10838" max-vertical-offset="11070">
+            <state line="736" column="0" selection-start="16098" selection-end="16098" vertical-scroll-proportion="0.0" vertical-offset="10898" max-vertical-offset="11130">
               <folding />
             </state>
           </provider>
@@ -135,8 +134,8 @@
         <option value="$PROJECT_DIR$/amGirlResp.html" />
         <option value="$PROJECT_DIR$/stylesheets/AmGirlResp.css" />
         <option value="$PROJECT_DIR$/responsiveGrid.html" />
-        <option value="$PROJECT_DIR$/amGirlResp_5Col.html" />
         <option value="$PROJECT_DIR$/sass/AmGirlResp.scss" />
+        <option value="$PROJECT_DIR$/amGirlResp_5Col.html" />
       </list>
     </option>
   </component>
@@ -351,7 +350,11 @@
       <created>1387403274650</created>
       <updated>1387403274650</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="had to update scss as the a in the cat nav class was inheriting from the horizontal nav class..">
+      <created>1387407850940</created>
+      <updated>1387407850940</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -386,7 +389,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="just updating stuff, nothing excited yet.." />
-    <option name="LAST_COMMIT_MESSAGE" value="just updating stuff, nothing excited yet.." />
+    <MESSAGE value="had to update scss as the a in the cat nav class was inheriting from the horizontal nav class.." />
+    <option name="LAST_COMMIT_MESSAGE" value="had to update scss as the a in the cat nav class was inheriting from the horizontal nav class.." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -474,14 +478,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="508" column="0" selection-start="12472" selection-end="12472" vertical-scroll-proportion="0.0" vertical-offset="7284" max-vertical-offset="7710">
+        <state line="510" column="0" selection-start="12469" selection-end="12469" vertical-scroll-proportion="0.0" vertical-offset="7314" max-vertical-offset="7740">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/AmGirlResp.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="732" column="0" selection-start="16067" selection-end="16067" vertical-scroll-proportion="0.0" vertical-offset="10838" max-vertical-offset="11070">
+        <state line="736" column="0" selection-start="16098" selection-end="16098" vertical-scroll-proportion="0.0" vertical-offset="10898" max-vertical-offset="11130">
           <folding />
         </state>
       </provider>
@@ -499,21 +503,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/responsiveGrid.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="100" selection-start="433" selection-end="433" vertical-scroll-proportion="-1.3461539" vertical-offset="0" max-vertical-offset="2250">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amGirlResp_5Col.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="552" selection-end="552" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="4110">
+        <state line="5" column="1" selection-start="153" selection-end="256" vertical-scroll-proportion="-0.96153843" vertical-offset="0" max-vertical-offset="2250">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="286" column="105" selection-start="6212" selection-end="6212" vertical-scroll-proportion="0.2996454" vertical-offset="4121" max-vertical-offset="10080">
+        <state line="417" column="12" selection-start="8673" selection-end="8673" vertical-scroll-proportion="-7.08" vertical-offset="5901" max-vertical-offset="10140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amGirlResp_5Col.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="62" selection-start="8235" selection-end="8235" vertical-scroll-proportion="0.27966103" vertical-offset="2100" max-vertical-offset="4080">
           <folding />
         </state>
       </provider>

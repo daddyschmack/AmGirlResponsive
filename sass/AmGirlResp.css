@@ -308,11 +308,13 @@ header {
         display: inline-block;
         width: 58%;
         white-space: pre;
-        margin-right: 2%;
-        background: url("../img/Img_Historical_Char_Main_noText.png") center right no-repeat; }
+        margin-right: 2%; }
     .productArea .image_Area .div_gridHolder {
       white-space: pre;
       border: 1px solid blue; }
+    .productArea .image_Area .GridArea_2 {
+      position: relative;
+      margin: 2% 0; }
 
 footer {
   background: rgba(255, 214, 235, 0.85);

@@ -435,15 +435,19 @@ header .rightSideHeader .telLink {
   width: 58%;
   white-space: pre;
   margin-right: 2%;
-  background: url("../img/Img_Historical_Char_Main_noText.png") center right no-repeat;
 }
 /* line 412, ../sass/AmGirlResp.scss */
 .productArea .image_Area .div_gridHolder {
   white-space: pre;
   border: 1px solid blue;
 }
+/* line 416, ../sass/AmGirlResp.scss */
+.productArea .image_Area .GridArea_2 {
+  position: relative;
+  margin: 2% 0;
+}
 
-/* line 422, ../sass/AmGirlResp.scss */
+/* line 426, ../sass/AmGirlResp.scss */
 footer {
   background: rgba(255, 214, 235, 0.85);
   background: -moz-linear-gradient(top, rgba(255, 214, 235, 0.85) 0%, rgba(255, 225, 240, 0.85) 26%, #fff3f9 71%, white 100%);
@@ -452,16 +456,16 @@ footer {
   margin-top: -1.5%;
   height: auto;
 }
-/* line 432, ../sass/AmGirlResp.scss */
+/* line 436, ../sass/AmGirlResp.scss */
 footer a {
   color: #494848;
   text-decoration: none;
 }
-/* line 436, ../sass/AmGirlResp.scss */
+/* line 440, ../sass/AmGirlResp.scss */
 footer .footerLinks {
   padding: .5% 4%;
 }
-/* line 438, ../sass/AmGirlResp.scss */
+/* line 442, ../sass/AmGirlResp.scss */
 footer .footerLinks .column {
   display: inline-block;
   position: relative;
@@ -474,15 +478,15 @@ footer .footerLinks .column {
   padding: 0 1.5% 0 1.5%;
   margin-left: 1%;
 }
-/* line 450, ../sass/AmGirlResp.scss */
+/* line 454, ../sass/AmGirlResp.scss */
 footer .footerLinks :last-child {
   border-right: none;
 }
-/* line 453, ../sass/AmGirlResp.scss */
+/* line 457, ../sass/AmGirlResp.scss */
 footer .footerLinks :first-child {
   margin-left: -.2%;
 }
-/* line 456, ../sass/AmGirlResp.scss */
+/* line 460, ../sass/AmGirlResp.scss */
 footer .footerLinks .footerHeader {
   font-weight: bold;
   margin: 10px 0 5px 0;
@@ -490,7 +494,7 @@ footer .footerLinks .footerHeader {
   font-weight: 700;
   color: #A6383A;
 }
-/* line 464, ../sass/AmGirlResp.scss */
+/* line 468, ../sass/AmGirlResp.scss */
 footer .disclaimers {
   padding: 1% 0;
   background-color: #ECE7E8;
@@ -498,16 +502,16 @@ footer .disclaimers {
   color: #000;
   font-size: .9em;
 }
-/* line 470, ../sass/AmGirlResp.scss */
+/* line 474, ../sass/AmGirlResp.scss */
 footer .disclaimers .privacy {
   line-height: 20px;
 }
-/* line 472, ../sass/AmGirlResp.scss */
+/* line 476, ../sass/AmGirlResp.scss */
 footer .disclaimers .privacy a {
   color: #980268;
   text-transform: capitalize;
 }
-/* line 478, ../sass/AmGirlResp.scss */
+/* line 482, ../sass/AmGirlResp.scss */
 footer .disclaimers .legal a {
   color: #000;
 }
@@ -515,7 +519,7 @@ footer .disclaimers .legal a {
 /* the grid code */
 /*this is a test 3 column grid.. we probably won't use it*/
 /*  SECTIONS  */
-/* line 489, ../sass/AmGirlResp.scss */
+/* line 493, ../sass/AmGirlResp.scss */
 .section {
   clear: both;
   padding: 0px;
@@ -523,66 +527,66 @@ footer .disclaimers .legal a {
 }
 
 /*  COLUMN SETUP  */
-/* line 496, ../sass/AmGirlResp.scss */
+/* line 500, ../sass/AmGirlResp.scss */
 .col {
   display: block;
   float: left;
   margin: 1% 0 1% 1.6%;
 }
 
-/* line 501, ../sass/AmGirlResp.scss */
+/* line 505, ../sass/AmGirlResp.scss */
 .col:first-child {
   margin-left: 0;
 }
 
 /*  GROUPING  */
-/* line 506, ../sass/AmGirlResp.scss */
+/* line 510, ../sass/AmGirlResp.scss */
 .group:before,
 .group:after {
   content: "";
   display: table;
 }
 
-/* line 510, ../sass/AmGirlResp.scss */
+/* line 514, ../sass/AmGirlResp.scss */
 .group:after {
   clear: both;
 }
 
 /*  GRID OF THREE  */
-/* line 515, ../sass/AmGirlResp.scss */
+/* line 519, ../sass/AmGirlResp.scss */
 .span_3_of_3 {
   width: 100%;
 }
 
-/* line 518, ../sass/AmGirlResp.scss */
+/* line 522, ../sass/AmGirlResp.scss */
 .span_2_of_3 {
   width: 66.1%;
 }
 
-/* line 521, ../sass/AmGirlResp.scss */
+/* line 525, ../sass/AmGirlResp.scss */
 .span_1_of_3 {
   width: 32%;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 @media only screen and (max-width: 480px) {
-  /* line 528, ../sass/AmGirlResp.scss */
+  /* line 532, ../sass/AmGirlResp.scss */
   .col {
     margin: 1% 0 1% 0%;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 534, ../sass/AmGirlResp.scss */
+  /* line 538, ../sass/AmGirlResp.scss */
   .span_3_of_3 {
     width: 100%;
   }
 
-  /* line 537, ../sass/AmGirlResp.scss */
+  /* line 541, ../sass/AmGirlResp.scss */
   .span_2_of_3 {
     width: 100%;
   }
 
-  /* line 540, ../sass/AmGirlResp.scss */
+  /* line 544, ../sass/AmGirlResp.scss */
   .span_1_of_3 {
     width: 100%;
   }
@@ -592,7 +596,7 @@ footer .disclaimers .legal a {
 /*//////////////////////////////////// grid setup */
 /* note that box-sizing: border-box; is required for this solution */
 /* optionally use clearfix to clear floats and delete these styles */
-/* line 553, ../sass/AmGirlResp.scss */
+/* line 557, ../sass/AmGirlResp.scss */
 .half,
 .third,
 .grid-container {
@@ -600,7 +604,7 @@ footer .disclaimers .legal a {
 }
 
 /*//////////////////////////////////// mobile first grid */
-/* line 565, ../sass/AmGirlResp.scss */
+/* line 569, ../sass/AmGirlResp.scss */
 .grid-18,
 .grid-15,
 .grid-12,
@@ -612,24 +616,24 @@ footer .disclaimers .legal a {
   width: 100%;
 }
 
-/* line 571, ../sass/AmGirlResp.scss */
+/* line 575, ../sass/AmGirlResp.scss */
 .half,
 .third {
   float: left;
   clear: none;
 }
 
-/* line 573, ../sass/AmGirlResp.scss */
+/* line 577, ../sass/AmGirlResp.scss */
 .half {
   width: 50%;
 }
 
-/* line 574, ../sass/AmGirlResp.scss */
+/* line 578, ../sass/AmGirlResp.scss */
 .third {
   width: 33.3333333%;
 }
 
-/* line 578, ../sass/AmGirlResp.scss */
+/* line 582, ../sass/AmGirlResp.scss */
 .gutters .whole,
 .gutters .half,
 .gutters .third {
@@ -637,63 +641,63 @@ footer .disclaimers .legal a {
   margin-left: 1%;
 }
 
-/* line 580, ../sass/AmGirlResp.scss */
+/* line 584, ../sass/AmGirlResp.scss */
 .gutters .whole {
   width: 98%;
 }
 
-/* line 581, ../sass/AmGirlResp.scss */
+/* line 585, ../sass/AmGirlResp.scss */
 .gutters .half {
   width: 48%;
 }
 
-/* line 582, ../sass/AmGirlResp.scss */
+/* line 586, ../sass/AmGirlResp.scss */
 .gutters .third {
   width: 31.3333333%;
 }
 
-/* line 584, ../sass/AmGirlResp.scss */
+/* line 588, ../sass/AmGirlResp.scss */
 .gutters {
   margin-left: -1%;
   margin-right: -1%;
 }
 
 /*Media Queries begin here*/
-/* line 597, ../sass/AmGirlResp.scss */
+/* line 601, ../sass/AmGirlResp.scss */
 .productGrid_3 {
   position: absolute;
   width: 100%;
 }
 
 @media all and (max-width: 75em) {
-  /* line 606, ../sass/AmGirlResp.scss */
+  /* line 610, ../sass/AmGirlResp.scss */
   div {
     border: 1px dashed yellow;
   }
 
-  /* line 607, ../sass/AmGirlResp.scss */
+  /* line 611, ../sass/AmGirlResp.scss */
   .my-breakpoint.ui-grid-b .ui-block-a {
     width: 49.95%;
   }
 
-  /* line 609, ../sass/AmGirlResp.scss */
+  /* line 613, ../sass/AmGirlResp.scss */
   .my-breakpoint.ui-grid-b .ui-block-b,
   .my-breakpoint.ui-grid-b .ui-block-c {
     width: 24.925%;
   }
 
-  /* line 610, ../sass/AmGirlResp.scss */
+  /* line 614, ../sass/AmGirlResp.scss */
   .my-breakpoint.ui-grid-b .ui-block-a {
     clear: left;
   }
 }
 @media all and (max-width: 65em) {
-  /* line 615, ../sass/AmGirlResp.scss */
+  /* line 619, ../sass/AmGirlResp.scss */
   div {
     background-color: lightblue;
   }
 
-  /* line 620, ../sass/AmGirlResp.scss */
+  /* line 624, ../sass/AmGirlResp.scss */
   .my-breakpoint .ui-block-a,
   .my-breakpoint .ui-block-b,
   .my-breakpoint .ui-block-c,
@@ -703,24 +707,24 @@ footer .disclaimers .legal a {
     float: none;
   }
 }
-/* line 627, ../sass/AmGirlResp.scss */
+/* line 631, ../sass/AmGirlResp.scss */
 .factory {
   width: 100%;
 }
 @media (min-width: 960px) {
-  /* line 627, ../sass/AmGirlResp.scss */
+  /* line 631, ../sass/AmGirlResp.scss */
   .factory {
     width: 62.5%;
   }
 }
 @media (max-width: 768px) {
-  /* line 627, ../sass/AmGirlResp.scss */
+  /* line 631, ../sass/AmGirlResp.scss */
   .factory {
     width: 50%;
   }
 }
 
-/* line 653, ../sass/AmGirlResp.scss */
+/* line 657, ../sass/AmGirlResp.scss */
 .factory {
   width: 100%;
   width: 62.5%;
