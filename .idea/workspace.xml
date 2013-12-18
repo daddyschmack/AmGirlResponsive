@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8225511b-df19-4f8f-93ea-2331653bbbe8" name="Default" comment="" />
+    <list default="true" id="8225511b-df19-4f8f-93ea-2331653bbbe8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/amGirlResp_5Col.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/22d9bd499a541bf9b56fa766a0a2e30a27f3f189/AmGirlResp.scssc" afterPath="$PROJECT_DIR$/.sass-cache/22d9bd499a541bf9b56fa766a0a2e30a27f3f189/AmGirlResp.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/AmGirlResp.css" afterPath="$PROJECT_DIR$/sass/AmGirlResp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/AmGirlResp.css" afterPath="$PROJECT_DIR$/stylesheets/AmGirlResp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/AmGirlResp.scss" afterPath="$PROJECT_DIR$/sass/AmGirlResp.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responsiveGrid.html" afterPath="$PROJECT_DIR$/responsiveGrid.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="AmGirlResponsive.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +36,7 @@
       <file leaf-file-name="AmGirlResp.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="199" column="70" selection-start="4648" selection-end="4648" vertical-scroll-proportion="0.6400626" vertical-offset="2576" max-vertical-offset="9390">
+            <state line="323" column="0" selection-start="6677" selection-end="6677" vertical-scroll-proportion="0.17287233" vertical-offset="4780" max-vertical-offset="9420">
               <folding />
             </state>
           </provider>
@@ -35,7 +45,7 @@
       <file leaf-file-name="AmGirlResp.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="456" column="0" selection-start="11526" selection-end="11526" vertical-scroll-proportion="0.0" vertical-offset="6619" max-vertical-offset="6930">
+            <state line="457" column="0" selection-start="11585" selection-end="11585" vertical-scroll-proportion="0.0" vertical-offset="6519" max-vertical-offset="6945">
               <folding />
             </state>
           </provider>
@@ -44,12 +54,21 @@
       <file leaf-file-name="amGirlResp.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/amGirlResp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="17" selection-start="7323" selection-end="7323" vertical-scroll-proportion="-0.0" vertical-offset="2040" max-vertical-offset="3600">
+            <state line="263" column="111" selection-start="14179" selection-end="14179" vertical-scroll-proportion="-58.041668" vertical-offset="2042" max-vertical-offset="3600">
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="tag#div#0;tag#div#0;tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#1;tag#div#0;tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="amGirlResp_5Col.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amGirlResp_5Col.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="100" selection-start="911" selection-end="911" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="4140">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,7 +94,16 @@
       <file leaf-file-name="responsiveGrid.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/responsiveGrid.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="4" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="840">
+            <state line="140" column="63" selection-start="5546" selection-end="5546" vertical-scroll-proportion="-5.4102564" vertical-offset="1678" max-vertical-offset="2250">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AmGirlResp.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/AmGirlResp.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="346" column="2" selection-start="7630" selection-end="7630" vertical-scroll-proportion="0.0" vertical-offset="5048" max-vertical-offset="10005">
               <folding />
             </state>
           </provider>
@@ -88,6 +116,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -95,22 +131,24 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/responsiveGrid.html" />
         <option value="$PROJECT_DIR$/sass/amGirlResp.html" />
-        <option value="$PROJECT_DIR$/responsiveGrid.html" />
         <option value="$PROJECT_DIR$/TestAlignment.html" />
         <option value="$PROJECT_DIR$/html_holder" />
         <option value="$PROJECT_DIR$/sass/AmGirlResp.css" />
         <option value="$PROJECT_DIR$/amGirlResp.html" />
+        <option value="$PROJECT_DIR$/amGirlResp_5Col.html" />
+        <option value="$PROJECT_DIR$/responsiveGrid.html" />
+        <option value="$PROJECT_DIR$/stylesheets/AmGirlResp.css" />
         <option value="$PROJECT_DIR$/sass/AmGirlResp.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3351" />
-    <option name="y" value="322" />
+    <option name="x" value="-3355" />
+    <option name="y" value="344" />
     <option name="width" value="1404" />
     <option name="height" value="825" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -240,6 +278,9 @@
     </servers>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/sass" />
@@ -285,6 +326,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8225511b-df19-4f8f-93ea-2331653bbbe8" name="Default" comment="" />
@@ -294,17 +352,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3351" y="322" width="1404" height="825" extended-state="0" />
-    <editor active="true" />
+    <frame x="-3355" y="344" width="1404" height="825" extended-state="0" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23504274" sideWeight="0.92876714" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23504274" sideWeight="0.6712329" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.07123288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -323,18 +382,12 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/amGirlResp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="8" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="780">
@@ -396,11 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/AmGirlResp.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2145" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/AG_Logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -413,13 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/responsiveGrid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="4" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html_holder">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="26" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
@@ -427,16 +468,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.css">
+    <entry file="file://$PROJECT_DIR$/amGirlResp_5Col.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="456" column="0" selection-start="11526" selection-end="11526" vertical-scroll-proportion="0.0" vertical-offset="6619" max-vertical-offset="6930">
+        <state line="15" column="100" selection-start="911" selection-end="911" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="4140">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/amGirlResp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="17" selection-start="7323" selection-end="7323" vertical-scroll-proportion="-0.0" vertical-offset="2040" max-vertical-offset="3600">
+        <state line="263" column="111" selection-start="14179" selection-end="14179" vertical-scroll-proportion="-58.041668" vertical-offset="2042" max-vertical-offset="3600">
           <folding>
             <element signature="n#style#0;n#span#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="tag#div#0;tag#div#0;tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
@@ -445,9 +486,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/responsiveGrid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="63" selection-start="5546" selection-end="5546" vertical-scroll-proportion="-5.4102564" vertical-offset="1678" max-vertical-offset="2250">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="457" column="0" selection-start="11585" selection-end="11585" vertical-scroll-proportion="0.0" vertical-offset="6519" max-vertical-offset="6945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/AmGirlResp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="346" column="2" selection-start="7630" selection-end="7630" vertical-scroll-proportion="0.0" vertical-offset="5048" max-vertical-offset="10005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="70" selection-start="4648" selection-end="4648" vertical-scroll-proportion="0.6400626" vertical-offset="2576" max-vertical-offset="9390">
+        <state line="323" column="0" selection-start="6677" selection-end="6677" vertical-scroll-proportion="0.17287233" vertical-offset="4780" max-vertical-offset="9420">
           <folding />
         </state>
       </provider>

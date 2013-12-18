@@ -6,10 +6,104 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0-rc.1/jquery.mobile-1.4.0-rc.1.css">
     <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.0-rc.1/jquery.mobile-1.4.0-rc.1.js"></script>
-    <link href="stylesheets/AmGirlResp.css" type="text/css" rel="stylesheet">
+   <link href="stylesheets/AmGirlResp.css" type="text/css" rel="stylesheet">
     <style>
 
 
+        @media all and (max-width: 50em) {
+            .my-breakpoint .ui-block-a,
+            .my-breakpoint .ui-block-b,
+            .my-breakpoint .ui-block-c,
+            .my-breakpoint .ui-block-d,
+            .my-breakpoint .ui-block-e {
+                width: 100%;
+                float:none;
+            }
+        }
+
+
+
+        /* Float and set widths above 576px (36em * 16px) */
+        @media all and (max-width: 1024px){
+            /* Float all blocks */
+             .ui-grid-d.my-breakpoint .ui-block-a,
+             .ui-grid-d.my-breakpoint .ui-block-b,
+             .ui-grid-d.my-breakpoint .ui-block-c,
+             .ui-grid-d.my-breakpoint .ui-block-d,
+             .ui-grid-d.my-breakpoint .ui-block-e {
+                float:left;
+                background-color: red;
+                 opacity: .25;
+            }
+            /* Set widths for 2-up grids */
+             .ui-grid-a.my-breakpoint .ui-grid-a .ui-block-a,
+             .ui-grid-a.my-breakpoint .ui-grid-a .ui-block-b {
+                width: 49.95%;
+            }
+            /* Set widths for 3-up grids */
+             .ui-grid-b.my-breakpoint .ui-grid-b .ui-block-a,
+             .ui-grid-b.my-breakpoint .ui-grid-b .ui-block-b,
+             .ui-grid-b.my-breakpoint .ui-grid-b .ui-block-c {
+                width: 33.25%;
+            }
+            /* Set widths for 4-up grids */
+             .ui-grid-c.my-breakpoint .ui-grid-c .ui-block-a,
+             .ui-grid-c.my-breakpoint .ui-grid-c .ui-block-b,
+             .ui-grid-c.my-breakpoint .ui-grid-c .ui-block-c,
+             .ui-grid-c.my-breakpoint .ui-grid-c .ui-block-d {
+                width: 24.925%;
+            }
+            /* Set widths for 5-up grids */
+             .ui-grid-d.my-breakpoint. ui-grid-d .ui-block-a,
+             .ui-grid-d.my-breakpoint. ui-grid-d .ui-block-b,
+             .ui-grid-d.my-breakpoint. ui-grid-d .ui-block-c,
+             .ui-grid-d.my-breakpoint. ui-grid-d .ui-block-d,
+             .ui-grid-d.my-breakpoint. ui-grid-d .ui-block-e {
+                width: 19.925%;
+            }
+        }
+
+        @media all and (max-width: 768px){
+
+            /* Float all blocks */
+             .ui-grid-d.my-breakpoint .ui-block-a,
+             .ui-grid-d.my-breakpoint .ui-block-b,
+             .ui-grid-d.my-breakpoint .ui-block-c,
+             .ui-grid-d.my-breakpoint .ui-block-d,
+             .ui-grid-d.my-breakpoint .ui-block-e {
+                float:left;
+                background-color:lightblue;
+
+            }
+            /* Set widths for 2-up grids */
+             .ui-grid-d.my-breakpoint.ui-grid-a .ui-block-a,
+             .ui-grid-d.my-breakpoint.ui-grid-a .ui-block-b {
+                width: 75%;
+            }
+            /* Set widths for 3-up grids */
+             .ui-grid-d.my-breakpoint.ui-grid-b .ui-block-a,
+             .ui-grid-d.my-breakpoint.ui-grid-b .ui-block-b,
+             .ui-grid-d.my-breakpoint.ui-grid-b .ui-block-c {
+                width: 45%;
+            }
+            /* Set widths for 4-up grids */
+             .ui-grid-d.my-breakpoint.ui-grid-c .ui-block-a,
+             .ui-grid-d.my-breakpoint.ui-grid-c .ui-block-b,
+             .ui-grid-d.my-breakpoint.ui-grid-c .ui-block-c,
+             .ui-grid-d.my-breakpoint.ui-grid-c .ui-block-d {
+                width: 32.6666%;
+            }
+            /* Set widths for 5-up grids */
+             .ui-grid-d.my-breakpoint.ui-grid-d .ui-block-a,
+             .ui-grid-d.my-breakpoint.ui-grid-d .ui-block-b
+             .ui-grid-d.my-breakpoint.ui-grid-d .ui-block-c{
+                width:33%;
+             }
+             .ui-grid-d.my-breakpoint.ui-grid-d .ui-block-d,
+             .ui-grid-d.my-breakpoint.ui-grid-d .ui-block-e {
+                width: 50%;
+            }
+        }
 
     </style>
 </head>
@@ -33,18 +127,18 @@
 
 
 <div class="ui-grid-d my-breakpoint">
-    <div class="ui-block-a"><div class="plHolder-3Col-Cell">toy image A</div> </div>
-    <div class="ui-block-b"><div class="plHolder-3Col-Cell">toy image B</div></div>
-    <div class="ui-block-c"><div class="plHolder-3Col-Cell">toy image C</div></div><!--
-    <div class="ui-block-d">Block D</div>
-    <div class="ui-block-e">Block E</div>-->
-</div><!-- /grid-b -->
+    <div class="ui-block-a"><img src="img/bittyBaby_wText.gif"> </div>
+    <div class="ui-block-b"><img src="img/bittyBaby_wText.gif"></div>
+    <div class="ui-block-c"><img src="img/bittyBaby_wText.gif"></div>
+    <div class="ui-block-d"><img src="img/bittyBaby_wText.gif"></div>
+    <div class="ui-block-e"><img src="img/bittyBaby_wText.gif"></div>
+</div>
 <div class="ui-grid-d my-breakpoint">
-    <div class="ui-block-a"><div class="plHolder-3Col-Cell">toy image A</div> </div>
-    <div class="ui-block-b"><div class="plHolder-3Col-Cell">toy image B</div></div>
-    <div class="ui-block-c"><div class="plHolder-3Col-Cell">toy image C</div></div><!--
-    <div class="ui-block-d">Block D</div>
-    <div class="ui-block-e">Block E</div>-->
+    <div class="ui-block-a"><img src="img/bittyBaby_wText.gif"></div>
+    <div class="ui-block-b"><img src="img/bittyBaby_wText.gif"></div>
+    <div class="ui-block-c"><img src="img/bittyBaby_wText.gif"></div>
+    <div class="ui-block-d"><img src="img/bittyBaby_wText.gif"></div>
+    <div class="ui-block-e"><img src="img/bittyBaby_wText.gif"></div>
 </div><!-- /grid-b -->
 </div> <!-- end content-->
 </body>
