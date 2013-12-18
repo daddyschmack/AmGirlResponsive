@@ -302,7 +302,8 @@ header .rightSideHeader .telLink {
 }
 /* line 286, ../sass/AmGirlResp.scss */
 .cat-Nav a {
-  color: inherit;
+  color: #861836;
+  /* it turn out this inherits from the link menu horizontal, not so explicit color */
 }
 
 /* line 292, ../sass/AmGirlResp.scss */
@@ -587,42 +588,112 @@ footer .disclaimers .legal a {
   }
 }
 /*end of basic three column grid*/
+/* 18 columns grid*/
+/*//////////////////////////////////// grid setup */
+/* note that box-sizing: border-box; is required for this solution */
+/* optionally use clearfix to clear floats and delete these styles */
+/* line 553, ../sass/AmGirlResp.scss */
+.half,
+.third,
+.grid-container {
+  overflow: hidden;
+}
+
+/*//////////////////////////////////// mobile first grid */
+/* line 565, ../sass/AmGirlResp.scss */
+.grid-18,
+.grid-15,
+.grid-12,
+.grid-9,
+.grid-6,
+.grid-3,
+.grid-1 {
+  clear: both;
+  width: 100%;
+}
+
+/* line 571, ../sass/AmGirlResp.scss */
+.half,
+.third {
+  float: left;
+  clear: none;
+}
+
+/* line 573, ../sass/AmGirlResp.scss */
+.half {
+  width: 50%;
+}
+
+/* line 574, ../sass/AmGirlResp.scss */
+.third {
+  width: 33.3333333%;
+}
+
+/* line 578, ../sass/AmGirlResp.scss */
+.gutters .whole,
+.gutters .half,
+.gutters .third {
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+/* line 580, ../sass/AmGirlResp.scss */
+.gutters .whole {
+  width: 98%;
+}
+
+/* line 581, ../sass/AmGirlResp.scss */
+.gutters .half {
+  width: 48%;
+}
+
+/* line 582, ../sass/AmGirlResp.scss */
+.gutters .third {
+  width: 31.3333333%;
+}
+
+/* line 584, ../sass/AmGirlResp.scss */
+.gutters {
+  margin-left: -1%;
+  margin-right: -1%;
+}
+
 /*Media Queries begin here*/
-/* line 556, ../sass/AmGirlResp.scss */
+/* line 597, ../sass/AmGirlResp.scss */
 .productGrid_3 {
   position: absolute;
   width: 100%;
 }
 
 @media all and (max-width: 75em) {
-  /* line 565, ../sass/AmGirlResp.scss */
+  /* line 606, ../sass/AmGirlResp.scss */
   div {
     border: 1px dashed yellow;
   }
 
-  /* line 566, ../sass/AmGirlResp.scss */
+  /* line 607, ../sass/AmGirlResp.scss */
   .my-breakpoint.ui-grid-b .ui-block-a {
     width: 49.95%;
   }
 
-  /* line 568, ../sass/AmGirlResp.scss */
+  /* line 609, ../sass/AmGirlResp.scss */
   .my-breakpoint.ui-grid-b .ui-block-b,
   .my-breakpoint.ui-grid-b .ui-block-c {
     width: 24.925%;
   }
 
-  /* line 569, ../sass/AmGirlResp.scss */
+  /* line 610, ../sass/AmGirlResp.scss */
   .my-breakpoint.ui-grid-b .ui-block-a {
     clear: left;
   }
 }
 @media all and (max-width: 65em) {
-  /* line 574, ../sass/AmGirlResp.scss */
+  /* line 615, ../sass/AmGirlResp.scss */
   div {
     background-color: lightblue;
   }
 
-  /* line 579, ../sass/AmGirlResp.scss */
+  /* line 620, ../sass/AmGirlResp.scss */
   .my-breakpoint .ui-block-a,
   .my-breakpoint .ui-block-b,
   .my-breakpoint .ui-block-c,
@@ -632,24 +703,24 @@ footer .disclaimers .legal a {
     float: none;
   }
 }
-/* line 586, ../sass/AmGirlResp.scss */
+/* line 627, ../sass/AmGirlResp.scss */
 .factory {
   width: 100%;
 }
 @media (min-width: 960px) {
-  /* line 586, ../sass/AmGirlResp.scss */
+  /* line 627, ../sass/AmGirlResp.scss */
   .factory {
     width: 62.5%;
   }
 }
 @media (max-width: 768px) {
-  /* line 586, ../sass/AmGirlResp.scss */
+  /* line 627, ../sass/AmGirlResp.scss */
   .factory {
     width: 50%;
   }
 }
 
-/* line 612, ../sass/AmGirlResp.scss */
+/* line 653, ../sass/AmGirlResp.scss */
 .factory {
   width: 100%;
   width: 62.5%;

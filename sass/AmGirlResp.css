@@ -220,7 +220,8 @@ header {
   color: #861836;
   font-size: 1em; }
   .cat-Nav a {
-    color: inherit; }
+    color: #861836;
+    /* it turn out this inherits from the link menu horizontal, not so explicit color */ }
 
 .grayBar {
   height: 3%;
@@ -410,6 +411,56 @@ footer {
   .span_1_of_3 {
     width: 100%; } }
 /*end of basic three column grid*/
+/* 18 columns grid*/
+/*//////////////////////////////////// grid setup */
+/* note that box-sizing: border-box; is required for this solution */
+/* optionally use clearfix to clear floats and delete these styles */
+.half,
+.third,
+.grid-container {
+  overflow: hidden; }
+
+/*//////////////////////////////////// mobile first grid */
+.grid-18,
+.grid-15,
+.grid-12,
+.grid-9,
+.grid-6,
+.grid-3,
+.grid-1 {
+  clear: both;
+  width: 100%; }
+
+.half,
+.third {
+  float: left;
+  clear: none; }
+
+.half {
+  width: 50%; }
+
+.third {
+  width: 33.3333333%; }
+
+.gutters .whole,
+.gutters .half,
+.gutters .third {
+  margin-right: 1%;
+  margin-left: 1%; }
+
+.gutters .whole {
+  width: 98%; }
+
+.gutters .half {
+  width: 48%; }
+
+.gutters .third {
+  width: 31.3333333%; }
+
+.gutters {
+  margin-left: -1%;
+  margin-right: -1%; }
+
 /*Media Queries begin here*/
 .productGrid_3 {
   position: absolute;
