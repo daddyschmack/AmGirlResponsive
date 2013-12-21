@@ -2,16 +2,158 @@
 <html>
 <head>
     <title></title>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <style>
+        /*
+        .topLevelNavMenu,.vertMenuHolder ul ul {
+            display: none;
+        }
+
+        .vertMenuHolder ul li:hover > ul {
+            display: block;
+        }
+        .vertMenuHolder:hover ul.topLevelNavMenu{
+            display: block;
+
+        }
+        .topLevelNavMenu, ul li  {
+            list-style-type: none;
+        }
+        .topLevelNavMenu   {
+            margin: -.2% 0 0 -3%;
+            font-size:1.5em;
+            line-height: 1.2em;
+            width: 20%;
+            text-decoration: none;
+        }
+        .vertMenuHolder li  {
+            background-color: linen;
+            text-decoration: none;
+            font-size: 1em;
+            padding: 2px 0;
+        }
+        .vertMenuHolder a{
+            text-decoration: none;
+        }
+        */
+
+        .fa:hover{
+            background-color: blue;
+        }
+
+        .topLevelNavMenu,#verticalMenu_Header ul ul {
+            display: none;
+        }
+
+        #verticalMenu_Header ul li:hover > ul {
+            display: block;
+        }
+        #verticalMenu_Header:hover ul.topLevelNavMenu{
+            display: block;
+
+        }
+        .topLevelNavMenu, ul li  {
+            list-style-type: none;
+        }
+        .topLevelNavMenu   {
+            margin: -.2% 0 0 -3%;
+            font-size:1.5em;
+            line-height: 1.2em;
+            width: 20%;
+            text-decoration: none;
+        }
+        .vertMenuHolder li  {
+            background-color: linen;
+            text-decoration: none;
+            font-size: 1em;
+            padding: 2px 0;
+        }
+        .vertMenuHolder a{
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-<header>
-<span class="logoHolder" style="width:48%; display: inline-block;border:1px solid green">
-    <img src="img/AG_Logo.png">
-        <h2 style="display: inline-block">Follow your inner star</h2>
-
-</span>
 
 
-</header>
+    <div class="vertMenuHolder"><i class="fa fa-bars fa-2x"> </i>
+
+        <ul class="topLevelNavMenu">
+            <li class="topLevelItem"> <a href="#" class="topLevel_a">Activity</a>
+            <ul>
+            <li><a href="#" onclick="javascript:alert('Let\'s Play');">Play</a></li>
+            <li><a href="#" onclick="javascript:alert('Stores');">Stores</a></li>
+            </ul>
+            <li class="topLevelItem"> <a href="#" class="topLevel_a">Topic Menu</a>
+                <ul>
+                    <li><a href="#" onclick="javascript:alert('Gift Guide');">Gift Guide</a></li>
+                    <li><a href="#" onclick="javascript:alert('Sale');">Sale</a></li>
+                    <li><a href="#" onclick="javascript:alert('What\'s New');">What's New</a></li>
+                    <li><a href="#" onclick="javascript:alert('Seasonal Categories');">Seasonal Category</a></li>
+                    <li><a href="#" onclick="javascript:alert('Doll Care');">Dolls Care</a></li> <!-- menu area1 left -->
+                </ul>
+            </li>
+            <li class="topLevelItem"> <a href="#" class="topLevel_a">Shop by Category</a>
+                <ul>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Dolls');">Dolls</a></li>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('BookStore');">Bookstore</a></li>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Clothing');">Clothing</a></li>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Furniture');">Furniture</a></li>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Accesories');">Accesories</a></li>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Magazine');">Magazine</a></li>
+                </ul>
+            </li>
+            <li class="topLevelItem"> <a href="#" class="topLevel_a">About Me</a>
+                <ul class="linkMenu_horizontal linkMenu_Right">
+                    <li><a href="#" onclick="javascript:alert('My Account');">My Account</a></li>
+                    <li><a href="#" onclick="javascript:alert('Gift Registry');">Gift Registry</a></li>           <!--menu area1 right (account info) -->
+                </ul>
+            </li>
+        </ul>
+            </span>
+
+    </div>
+<hr>
+
+    <div id="verticalMenu_Header"><i class="fa fa-bars fa-2x"> </i>
+
+        <ul class="topLevelNavMenu">
+            <li class="topLevelItem"> <a href="#" class="topLevel_a">Activity</a>
+                <ul>
+                    <li><a href="#" onclick="javascript:alert('Let\'s Shop');">Shop</a></li>
+                    <li><a href="#" onclick="javascript:alert('Let\'s Play');">Play</a></li>
+                    <li><a href="#" onclick="javascript:alert('Stores');">Stores</a></li>
+
+                </ul>
+            </li>
+            <li class="topLevelItem"> <a href="#" class="topLevel_a">Topic Menu</a>
+                <ul>
+                    <li><a href="#" onclick="javascript:alert('Gift Guide');">Gift Guide</a></li>
+                    <li><a href="#" onclick="javascript:alert('Sale');">Sale</a></li>
+                    <li><a href="#" onclick="javascript:alert('What\'s New');">What's New</a></li>
+                    <li><a href="#" onclick="javascript:alert('Seasonal Categories');">Seasonal Category</a></li>
+                    <li><a href="#" onclick="javascript:alert('Doll Care');">Dolls Care</a></li> <!-- menu area1 left -->
+                </ul>
+            </li>
+            <li class="topLevelItem"> <a href="#" class="topLevel_a">Shop by Category</a>
+                <ul>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Dolls');">Dolls</a></li>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('BookStore');">Bookstore</a></li>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Clothing');">Clothing</a></li>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Furniture');">Furniture</a></li>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Accesories');">Accesories</a></li>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Magazine');">Magazine</a></li>
+                </ul>
+            </li>
+            <li class="topLevelItem"> <a href="#" class="topLevel_a">About Me</a>
+                <ul class="linkMenu_horizontal linkMenu_Right">
+                    <li><a href="#" onclick="javascript:alert('My Account');">My Account</a></li>
+                    <li><a href="#" onclick="javascript:alert('Gift Registry');">Gift Registry</a></li>           <!--menu area1 right (account info) -->
+                </ul>
+            </li>
+        </ul>
+        </span>
+
+    </div>
 </body>
 </html>

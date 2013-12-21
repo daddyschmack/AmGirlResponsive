@@ -1,5 +1,16 @@
+/* simple utility to show or hide div based on media query default values*/
+/* line 64, ../sass/AmGirlResp.scss */
+.mobile_hide {
+  display: inherit;
+}
+
+/* line 68, ../sass/AmGirlResp.scss */
+.mobile_show {
+  display: none;
+}
+
 /*box shadow styles*/
-/* line 16, ../sass/AmGirlResp.scss */
+/* line 74, ../sass/AmGirlResp.scss */
 .insetField {
   box-shadow: inset 0 0 .1em #D1D1D1;
   -moz-box-shadow: inset 0 0 .1em #D1D1D1;
@@ -7,61 +18,76 @@
   background: transparent;
 }
 
-/* line 24, ../sass/AmGirlResp.scss */
+/* line 82, ../sass/AmGirlResp.scss */
 .bottom_shadow_border_gray {
   box-shadow: 3px 4px 4px -2px gray;
   -moz-box-shadow: 3px 4px 4px -2px gray;
   -webkit-box-shadow: 3px 4px 4px -2px gray;
 }
 
-/* line 30, ../sass/AmGirlResp.scss */
+/* line 88, ../sass/AmGirlResp.scss */
 .shadow_top {
   box-shadow: 1px -5px 29px -2px rgba(31, 30, 31, 0.42);
 }
 
-/* line 35, ../sass/AmGirlResp.scss */
+/* line 93, ../sass/AmGirlResp.scss */
 .shadow_top_footer {
   box-shadow: 0px -2px 10px -2px rgba(31, 30, 31, 0.65);
   -moz-box-shadow: 0px -2px 10px -2px rgba(31, 30, 31, 0.65);
 }
 
-/* line 41, ../sass/AmGirlResp.scss */
+/* line 99, ../sass/AmGirlResp.scss */
 .shadow_right {
   box-shadow: -5px 0 5px -5px #333;
 }
 
-/* line 46, ../sass/AmGirlResp.scss */
+/* line 104, ../sass/AmGirlResp.scss */
 .shadow_bottom {
   box-shadow: 3px 13px 18px -13px #333333;
 }
 
-/* line 50, ../sass/AmGirlResp.scss */
+/* line 108, ../sass/AmGirlResp.scss */
 .shadow_left {
   box-shadow: 5px 0 5px -5px #333;
 }
 
-/* line 54, ../sass/AmGirlResp.scss */
+/* line 112, ../sass/AmGirlResp.scss */
 .shadow_all {
   box-shadow: 0px -5px 43px 9px rgba(0, 0, 0, 0.75);
 }
 
-/* line 57, ../sass/AmGirlResp.scss */
-html {
-  @font-face {
-    font-family: myFirstFont;
-    src: "fonts/agenda/agenda-light-webfont.woff";
+/* font stuff*/
+@font-face {
+  font-family: 'agenda-light';
+  src: url("../stylesheets/fonts/agenda/agenda-light-webfont.otf") format("otf"), url("../stylesheets/fonts/agenda/agenda-light-webfont.eot?") format("eot"), url("../stylesheets/fonts/agenda/agenda-light-webfont.ttf") format("ttf"), url("../stylesheets/fonts/agenda/agenda-light-webfont.svg") format("svg");
 }
 
+@font-face {
+  font-family: 'agenda-medium';
+  src: url("../stylesheets/fonts/agenda/agenda-medium-webfont.otf") format("otf"), url("../stylesheets/fonts/agenda/agenda-medium-webfont.eot") format("eot"), url("../stylesheets/fonts/agenda/agenda-medium-webfont.ttf") format("ttf"), url("../stylesheets/fonts/agenda/agenda-medium-webfont.svg") format("svg");
 }
 
-/* line 64, ../sass/AmGirlResp.scss */
+@font-face {
+  font-family: 'agenda-bold';
+  src: url("../stylesheets/fonts/agenda/agenda-bold-webfont.woff") format("woff"), url("../stylesheets/fonts/agenda/agenda-bold-webfont.eot") format("eot"), url("../stylesheets/fonts/agenda/agenda-bold-webfont.ttf") format("ttf"), url("../stylesheets/fonts/agenda/agenda-bold-webfont.svg") format("svg");
+}
+
+/* line 149, ../sass/AmGirlResp.scss */
 body {
   font-size: 16px;
-  font-family: agenda;
+  font-family: Arial, Tahoma, Verdana, Helvetica, sans-serif;
+  box-sizing: border-box;
+  max-width: 1124px;
+  margin: auto;
+}
+
+/* line 161, ../sass/AmGirlResp.scss */
+img {
+  max-width: 100%;
 }
 
 /*link styling */
-/* line 70, ../sass/AmGirlResp.scss */
+/* line 165, ../sass/AmGirlResp.scss */
 .berry-GradientButton {
   background-color: #a10a4e;
   background: -webkit-gradient(linear, 0% 0%, 0% 50%, from(#cb006d), to(#a10a4e));
@@ -70,35 +96,35 @@ body {
   font-size: 18px;
   border: 1px solid #861836;
   border-left: none;
-  padding: 3% 5.5%;
+  padding: 2.4% 5.9%;
   position: relative;
   margin-left: -4px;
-  min-height: 35px;
-  line-height: 35px;
+  min-height: 2em;
+  line-height: 2em;
   width: auto;
 }
-/* line 85, ../sass/AmGirlResp.scss */
+/* line 180, ../sass/AmGirlResp.scss */
 .berry-GradientButton a {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 93, ../sass/AmGirlResp.scss */
+/* line 188, ../sass/AmGirlResp.scss */
 .innerGlow_Button {
   font-size: 1.15em;
   background-color: #F1DAE5;
-  padding: 1.5% 3.2%;
+  padding: 1.1% 2.43%;
   margin-left: -4px;
   box-shadow: inset 0px -19px 64px 14px rgba(255, 255, 255, 0.95), inset -8px -11px 11px -11px rgba(0, 0, 0, 0.95);
   border: 1px solid #D488A7;
   border-width: 1px 1px 0 0;
   border-bottom: none;
   display: inline-block;
-  min-height: 35px;
-  line-height: 35px;
+  min-height: 2em;
+  line-height: 2em;
   width: auto;
 }
-/* line 107, ../sass/AmGirlResp.scss */
+/* line 202, ../sass/AmGirlResp.scss */
 .innerGlow_Button a {
   height: 40px;
   color: #a10a4e;
@@ -108,40 +134,47 @@ body {
   border-radius: 12px;
 }
 
-/* line 119, ../sass/AmGirlResp.scss */
+/* line 214, ../sass/AmGirlResp.scss */
 header {
   background-color: #861836;
   /*dark berry*/
   height: 15%;
   width: 100%;
   padding-bottom: 15px;
-  /*background-image: url("img/AG_Logo.png");*/
 }
-/* line 125, ../sass/AmGirlResp.scss */
+/* line 220, ../sass/AmGirlResp.scss */
+header #verticalMenu_Header {
+  display: none;
+}
+/* line 224, ../sass/AmGirlResp.scss */
 header .logoHolder {
   display: inline-block;
-  width: 47%;
+  background-image: url("../img/AG_Logo_wText.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position-x: 1.25em;
+  height: 60px;
+  width: 52%;
+  /*img{
+    padding: 1% 0 0 5%;
+    width: 80%;
+  }*/
 }
-/* line 128, ../sass/AmGirlResp.scss */
-header .logoHolder img {
-  padding: 1% 0 0 5%;
-  width: 80%;
-}
-/* line 134, ../sass/AmGirlResp.scss */
+/* line 238, ../sass/AmGirlResp.scss */
 header .rightSideHeader {
-  width: 49%;
+  width: 41%;
   position: relative;
   display: inline-block;
   color: white;
-  margin: 1.2% 0 1% 1.5%;
+  margin: 1.2% 2% 1% 1.5%;
 }
-/* line 141, ../sass/AmGirlResp.scss */
+/* line 245, ../sass/AmGirlResp.scss */
 header .rightSideHeader .menuHolder {
   margin-left: 35%;
   display: block;
   margin-bottom: 3%;
 }
-/* line 146, ../sass/AmGirlResp.scss */
+/* line 250, ../sass/AmGirlResp.scss */
 header .rightSideHeader .menuHolder .checkoutMenu {
   display: inline-block;
   list-style-type: none;
@@ -150,7 +183,7 @@ header .rightSideHeader .menuHolder .checkoutMenu {
   color: #d98ab0;
   margin: 1.5% 21% 0 0;
 }
-/* line 155, ../sass/AmGirlResp.scss */
+/* line 259, ../sass/AmGirlResp.scss */
 header .rightSideHeader .menuHolder li {
   list-style: none;
   font-size: 1.25em;
@@ -158,18 +191,18 @@ header .rightSideHeader .menuHolder li {
   color: white;
   padding: 4px 8px;
 }
-/* line 162, ../sass/AmGirlResp.scss */
+/* line 266, ../sass/AmGirlResp.scss */
 header .rightSideHeader .menuHolder li:first-child {
   padding-left: 0;
 }
-/* line 165, ../sass/AmGirlResp.scss */
+/* line 269, ../sass/AmGirlResp.scss */
 header .rightSideHeader .menuHolder a {
   color: white;
   font-size: .80em;
   text-align: right;
   text-decoration: none;
 }
-/* line 172, ../sass/AmGirlResp.scss */
+/* line 276, ../sass/AmGirlResp.scss */
 header .rightSideHeader .searchHolder {
   height: 25%;
   line-height: 25px;
@@ -179,7 +212,7 @@ header .rightSideHeader .searchHolder {
   background-color: white;
   text-align: right;
 }
-/* line 181, ../sass/AmGirlResp.scss */
+/* line 285, ../sass/AmGirlResp.scss */
 header .rightSideHeader .searchHolder input {
   padding-left: 5%;
   display: inline-block;
@@ -187,13 +220,13 @@ header .rightSideHeader .searchHolder input {
   border: none;
   text-align: left;
 }
-/* line 188, ../sass/AmGirlResp.scss */
+/* line 292, ../sass/AmGirlResp.scss */
 header .rightSideHeader .searchHolder i {
   text-align: right;
   padding-right: 2%;
   font-size: .82em;
 }
-/* line 194, ../sass/AmGirlResp.scss */
+/* line 298, ../sass/AmGirlResp.scss */
 header .rightSideHeader .telLink {
   display: inline-block;
   /*this will change responsively*/
@@ -207,36 +240,36 @@ header .rightSideHeader .telLink {
   /*we need to chagne this at breakbpoints*/
 }
 
-/* line 205, ../sass/AmGirlResp.scss */
+/* line 309, ../sass/AmGirlResp.scss */
 .linkMenu_horizontal {
   margin-left: 3%;
   list-style-type: none;
   display: inline;
 }
-/* line 211, ../sass/AmGirlResp.scss */
+/* line 315, ../sass/AmGirlResp.scss */
 .linkMenu_horizontal li {
   display: inline;
   color: #ffffff;
   padding: 0 2px;
 }
-/* line 216, ../sass/AmGirlResp.scss */
+/* line 320, ../sass/AmGirlResp.scss */
 .linkMenu_horizontal a {
   text-decoration: none;
 }
 
-/* line 220, ../sass/AmGirlResp.scss */
+/* line 324, ../sass/AmGirlResp.scss */
 .linkMenu_Right {
   margin-right: 1.5%;
   float: right;
   height: 40px;
   font-size: 1.1em;
 }
-/* line 225, ../sass/AmGirlResp.scss */
+/* line 329, ../sass/AmGirlResp.scss */
 .linkMenu_Right a {
   color: #ffffff;
 }
 
-/* line 229, ../sass/AmGirlResp.scss */
+/* line 333, ../sass/AmGirlResp.scss */
 .Menu_Holder_body_1 {
   background-color: #861836;
   height: 2em;
@@ -246,12 +279,12 @@ header .rightSideHeader .telLink {
   border-top: 1px #b43a69 solid;
   padding: 10px 0 15px 0;
 }
-/* line 237, ../sass/AmGirlResp.scss */
+/* line 341, ../sass/AmGirlResp.scss */
 .Menu_Holder_body_1 .categoryMenu {
   font-size: 1em;
   margin-left: 6.2%;
 }
-/* line 240, ../sass/AmGirlResp.scss */
+/* line 344, ../sass/AmGirlResp.scss */
 .Menu_Holder_body_1 .categoryMenu a {
   padding: 1% .5%;
   text-decoration: none;
@@ -260,7 +293,7 @@ header .rightSideHeader .telLink {
   width: auto;
 }
 
-/* line 250, ../sass/AmGirlResp.scss */
+/* line 354, ../sass/AmGirlResp.scss */
 .Menu_Holder_body_2 {
   background-color: #ffffff;
   height: 2.9em;
@@ -268,7 +301,7 @@ header .rightSideHeader .telLink {
   width: 100%;
 }
 
-/* line 259, ../sass/AmGirlResp.scss */
+/* line 363, ../sass/AmGirlResp.scss */
 .shoppingActionsMenu {
   position: absolute;
   display: inline-block;
@@ -280,7 +313,7 @@ header .rightSideHeader .telLink {
   right: 2%;
 }
 
-/* line 270, ../sass/AmGirlResp.scss */
+/* line 374, ../sass/AmGirlResp.scss */
 .product_Category_Link_Menu {
   margin: -1.75% 0 0 3.2%;
   display: inline-block;
@@ -289,24 +322,24 @@ header .rightSideHeader .telLink {
   position: relative;
   background: transparent;
 }
-/* line 277, ../sass/AmGirlResp.scss */
+/* line 381, ../sass/AmGirlResp.scss */
 .product_Category_Link_Menu li:first-child {
   border-left: 1px solid #D488A7;
 }
 
-/* line 282, ../sass/AmGirlResp.scss */
+/* line 386, ../sass/AmGirlResp.scss */
 .cat-Nav {
   margin-top: 20px;
   color: #861836;
   font-size: 1em;
 }
-/* line 286, ../sass/AmGirlResp.scss */
+/* line 390, ../sass/AmGirlResp.scss */
 .cat-Nav a {
   color: #861836;
   /* it turn out this inherits from the link menu horizontal, not so explicit color */
 }
 
-/* line 292, ../sass/AmGirlResp.scss */
+/* line 396, ../sass/AmGirlResp.scss */
 .grayBar {
   height: 3%;
   border: 1px lightgray solid;
@@ -315,7 +348,7 @@ header .rightSideHeader .telLink {
   margin: 1% 2% 2% 3%;
 }
 
-/* line 299, ../sass/AmGirlResp.scss */
+/* line 403, ../sass/AmGirlResp.scss */
 .bottomBox {
   margin: 1% 0 1.5% 0;
   padding: 0;
@@ -324,18 +357,18 @@ header .rightSideHeader .telLink {
   color: #666672;
   border: none;
 }
-/* line 306, ../sass/AmGirlResp.scss */
+/* line 410, ../sass/AmGirlResp.scss */
 .bottomBox .big_Text {
   font-size: 1em;
   font-weight: 800;
   margin-bottom: 3px;
 }
-/* line 311, ../sass/AmGirlResp.scss */
+/* line 415, ../sass/AmGirlResp.scss */
 .bottomBox .small_Text {
   font-size: .9em;
 }
 
-/* line 317, ../sass/AmGirlResp.scss */
+/* line 421, ../sass/AmGirlResp.scss */
 .berry_seperator_span {
   height: 1px;
   background-color: #FCE9F2;
@@ -343,7 +376,7 @@ header .rightSideHeader .telLink {
   margin: 1% 2% 2% 3%;
 }
 
-/* line 326, ../sass/AmGirlResp.scss */
+/* line 430, ../sass/AmGirlResp.scss */
 .plHolder-3Col-Cell {
   display: block;
   width: 252px;
@@ -354,100 +387,149 @@ header .rightSideHeader .telLink {
 }
 
 /*Product Area - two sides, filter, expended and a grid with a banner with a banner area*/
-/* line 336, ../sass/AmGirlResp.scss */
+/* line 440, ../sass/AmGirlResp.scss */
 .productArea {
   margin: 1% 2% 2% 3%;
+  box-sizing: border-box;
   text-decoration: none;
+  width: 100%;
 }
-/* line 340, ../sass/AmGirlResp.scss */
+/* line 446, ../sass/AmGirlResp.scss */
 .productArea ul:last-of-type li:last-of-type {
   margin-bottom: 5%;
 }
-/* line 344, ../sass/AmGirlResp.scss */
+/* line 450, ../sass/AmGirlResp.scss */
 .productArea ul:last-of-type li:first-of-type {
   margin-top: 2%;
 }
-/* line 349, ../sass/AmGirlResp.scss */
+/* line 455, ../sass/AmGirlResp.scss */
 .productArea .filter_Expanded {
   display: inline-block;
   vertical-align: top;
   height: 100%;
-  width: 17.5%;
-  margin-right: 2.5%;
+  width: 20.81851%;
+  margin-right: .5%;
 }
-/* line 355, ../sass/AmGirlResp.scss */
+/* line 461, ../sass/AmGirlResp.scss */
 .productArea .filter_Expanded a {
   text-decoration: none;
 }
-/* line 358, ../sass/AmGirlResp.scss */
+/* line 464, ../sass/AmGirlResp.scss */
 .productArea .filter_Expanded .level_2 {
   margin-bottom: 20px;
 }
-/* line 360, ../sass/AmGirlResp.scss */
+/* line 466, ../sass/AmGirlResp.scss */
 .productArea .filter_Expanded .level_2 a {
   color: #cb006d;
   font-weight: 600;
   font-size: 1.2em;
 }
-/* line 366, ../sass/AmGirlResp.scss */
+/* line 472, ../sass/AmGirlResp.scss */
 .productArea .filter_Expanded .level_3 {
   padding-bottom: 14px;
   border-bottom: 1px solid #cacaca;
 }
-/* line 369, ../sass/AmGirlResp.scss */
+/* line 475, ../sass/AmGirlResp.scss */
 .productArea .filter_Expanded .level_3 a {
   color: #F6AFD6;
   font-weight: 500;
   font-size: 1.15em;
 }
-/* line 375, ../sass/AmGirlResp.scss */
+/* line 481, ../sass/AmGirlResp.scss */
 .productArea .filter_Expanded .p_category {
   margin-left: 1%;
   padding: 1% 0 1% 0;
 }
-/* line 378, ../sass/AmGirlResp.scss */
+/* line 484, ../sass/AmGirlResp.scss */
 .productArea .filter_Expanded .p_category a {
   color: #000000;
   font-size: 16px;
   font-weight: 400;
 }
-/* line 384, ../sass/AmGirlResp.scss */
+/* line 490, ../sass/AmGirlResp.scss */
 .productArea .filter_Expanded .product {
   margin-left: 3%;
   line-height: 1.4em;
 }
-/* line 387, ../sass/AmGirlResp.scss */
+/* line 493, ../sass/AmGirlResp.scss */
 .productArea .filter_Expanded .product a {
   color: #878787;
 }
-/* line 395, ../sass/AmGirlResp.scss */
+/* line 501, ../sass/AmGirlResp.scss */
 .productArea .image_Area {
+  margin: 1% 0 0 0;
   display: inline-block;
+  width: 73.5%;
   vertical-align: top;
+  border: 1px solid blue;
+  padding: 0 0;
+  margin: auto;
+  box-sizing: border-box;
 }
-/* line 399, ../sass/AmGirlResp.scss */
+/* line 510, ../sass/AmGirlResp.scss */
 .productArea .image_Area .banner_Area {
   display: block;
 }
-/* line 401, ../sass/AmGirlResp.scss */
+/* line 512, ../sass/AmGirlResp.scss */
 .productArea .image_Area .banner_Area .div_imgHolder {
   display: inline-block;
-  width: 58%;
-  white-space: pre;
+  width: 58.75%;
   margin-right: 2%;
 }
-/* line 412, ../sass/AmGirlResp.scss */
+/* line 516, ../sass/AmGirlResp.scss */
+.productArea .image_Area .banner_Area .div_imgHolder .bannerImg {
+  display: inline-block;
+}
+/* line 525, ../sass/AmGirlResp.scss */
+.productArea .image_Area .banner_Area .imgText {
+  display: inline-block;
+  width: 41.25%;
+  font-size: 0.875em;
+  vertical-align: top;
+  text-align: center;
+  padding: 8% 0 5% 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFF1DBFF');
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #f1dbff 100%);
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #f1dbff 100%);
+  background-image: -o-linear-gradient(top, #ffffff 0%, #f1dbff 100%);
+  background-image: linear-gradient(to bottom, #ffffff 0%, #f1dbff 100%);
+}
+/* line 536, ../sass/AmGirlResp.scss */
+.productArea .image_Area .banner_Area .imgText p {
+  margin: 8% 6% 3% 6%;
+  display: block;
+}
+/* line 542, ../sass/AmGirlResp.scss */
+.productArea .image_Area .banner_Area .small_Headline {
+  font-family: "agenda-medium";
+  font-size: 1.375em;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+/* line 549, ../sass/AmGirlResp.scss */
+.productArea .image_Area .banner_Area .inspire_Headline {
+  font-family: "agenda-light";
+  color: #6C217F;
+  font-size: 1.625em;
+  display: block;
+  margin-top: 1%;
+}
+/* line 558, ../sass/AmGirlResp.scss */
 .productArea .image_Area .div_gridHolder {
   white-space: pre;
   border: 1px solid blue;
 }
-/* line 416, ../sass/AmGirlResp.scss */
+/* line 562, ../sass/AmGirlResp.scss */
 .productArea .image_Area .GridArea_2 {
   position: relative;
   margin: 2% 0;
 }
 
-/* line 426, ../sass/AmGirlResp.scss */
+/* line 572, ../sass/AmGirlResp.scss */
 footer {
   background: rgba(255, 214, 235, 0.85);
   background: -moz-linear-gradient(top, rgba(255, 214, 235, 0.85) 0%, rgba(255, 225, 240, 0.85) 26%, #fff3f9 71%, white 100%);
@@ -456,16 +538,16 @@ footer {
   margin-top: -1.5%;
   height: auto;
 }
-/* line 436, ../sass/AmGirlResp.scss */
+/* line 582, ../sass/AmGirlResp.scss */
 footer a {
   color: #494848;
   text-decoration: none;
 }
-/* line 440, ../sass/AmGirlResp.scss */
+/* line 586, ../sass/AmGirlResp.scss */
 footer .footerLinks {
   padding: .5% 4%;
 }
-/* line 442, ../sass/AmGirlResp.scss */
+/* line 588, ../sass/AmGirlResp.scss */
 footer .footerLinks .column {
   display: inline-block;
   position: relative;
@@ -478,15 +560,15 @@ footer .footerLinks .column {
   padding: 0 1.5% 0 1.5%;
   margin-left: 1%;
 }
-/* line 454, ../sass/AmGirlResp.scss */
+/* line 600, ../sass/AmGirlResp.scss */
 footer .footerLinks :last-child {
   border-right: none;
 }
-/* line 457, ../sass/AmGirlResp.scss */
+/* line 603, ../sass/AmGirlResp.scss */
 footer .footerLinks :first-child {
   margin-left: -.2%;
 }
-/* line 460, ../sass/AmGirlResp.scss */
+/* line 606, ../sass/AmGirlResp.scss */
 footer .footerLinks .footerHeader {
   font-weight: bold;
   margin: 10px 0 5px 0;
@@ -494,7 +576,7 @@ footer .footerLinks .footerHeader {
   font-weight: 700;
   color: #A6383A;
 }
-/* line 468, ../sass/AmGirlResp.scss */
+/* line 614, ../sass/AmGirlResp.scss */
 footer .disclaimers {
   padding: 1% 0;
   background-color: #ECE7E8;
@@ -502,101 +584,26 @@ footer .disclaimers {
   color: #000;
   font-size: .9em;
 }
-/* line 474, ../sass/AmGirlResp.scss */
+/* line 620, ../sass/AmGirlResp.scss */
 footer .disclaimers .privacy {
   line-height: 20px;
 }
-/* line 476, ../sass/AmGirlResp.scss */
+/* line 622, ../sass/AmGirlResp.scss */
 footer .disclaimers .privacy a {
   color: #980268;
   text-transform: capitalize;
 }
-/* line 482, ../sass/AmGirlResp.scss */
+/* line 628, ../sass/AmGirlResp.scss */
 footer .disclaimers .legal a {
   color: #000;
 }
 
 /* the grid code */
-/*this is a test 3 column grid.. we probably won't use it*/
-/*  SECTIONS  */
-/* line 493, ../sass/AmGirlResp.scss */
-.section {
-  clear: both;
-  padding: 0px;
-  margin: 0px;
-}
-
-/*  COLUMN SETUP  */
-/* line 500, ../sass/AmGirlResp.scss */
-.col {
-  display: block;
-  float: left;
-  margin: 1% 0 1% 1.6%;
-}
-
-/* line 505, ../sass/AmGirlResp.scss */
-.col:first-child {
-  margin-left: 0;
-}
-
-/*  GROUPING  */
-/* line 510, ../sass/AmGirlResp.scss */
-.group:before,
-.group:after {
-  content: "";
-  display: table;
-}
-
-/* line 514, ../sass/AmGirlResp.scss */
-.group:after {
-  clear: both;
-}
-
-/*  GRID OF THREE  */
-/* line 519, ../sass/AmGirlResp.scss */
-.span_3_of_3 {
-  width: 100%;
-}
-
-/* line 522, ../sass/AmGirlResp.scss */
-.span_2_of_3 {
-  width: 66.1%;
-}
-
-/* line 525, ../sass/AmGirlResp.scss */
-.span_1_of_3 {
-  width: 32%;
-}
-
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-@media only screen and (max-width: 480px) {
-  /* line 532, ../sass/AmGirlResp.scss */
-  .col {
-    margin: 1% 0 1% 0%;
-  }
-}
-@media only screen and (max-width: 480px) {
-  /* line 538, ../sass/AmGirlResp.scss */
-  .span_3_of_3 {
-    width: 100%;
-  }
-
-  /* line 541, ../sass/AmGirlResp.scss */
-  .span_2_of_3 {
-    width: 100%;
-  }
-
-  /* line 544, ../sass/AmGirlResp.scss */
-  .span_1_of_3 {
-    width: 100%;
-  }
-}
-/*end of basic three column grid*/
 /* 18 columns grid*/
 /*//////////////////////////////////// grid setup */
 /* note that box-sizing: border-box; is required for this solution */
 /* optionally use clearfix to clear floats and delete these styles */
-/* line 557, ../sass/AmGirlResp.scss */
+/* line 645, ../sass/AmGirlResp.scss */
 .half,
 .third,
 .grid-container {
@@ -604,7 +611,7 @@ footer .disclaimers .legal a {
 }
 
 /*//////////////////////////////////// mobile first grid */
-/* line 569, ../sass/AmGirlResp.scss */
+/* line 657, ../sass/AmGirlResp.scss */
 .grid-18,
 .grid-15,
 .grid-12,
@@ -616,24 +623,24 @@ footer .disclaimers .legal a {
   width: 100%;
 }
 
-/* line 575, ../sass/AmGirlResp.scss */
+/* line 663, ../sass/AmGirlResp.scss */
 .half,
 .third {
   float: left;
   clear: none;
 }
 
-/* line 577, ../sass/AmGirlResp.scss */
+/* line 665, ../sass/AmGirlResp.scss */
 .half {
   width: 50%;
 }
 
-/* line 578, ../sass/AmGirlResp.scss */
+/* line 666, ../sass/AmGirlResp.scss */
 .third {
   width: 33.3333333%;
 }
 
-/* line 582, ../sass/AmGirlResp.scss */
+/* line 670, ../sass/AmGirlResp.scss */
 .gutters .whole,
 .gutters .half,
 .gutters .third {
@@ -641,63 +648,211 @@ footer .disclaimers .legal a {
   margin-left: 1%;
 }
 
-/* line 584, ../sass/AmGirlResp.scss */
+/* line 672, ../sass/AmGirlResp.scss */
 .gutters .whole {
   width: 98%;
 }
 
-/* line 585, ../sass/AmGirlResp.scss */
+/* line 673, ../sass/AmGirlResp.scss */
 .gutters .half {
   width: 48%;
 }
 
-/* line 586, ../sass/AmGirlResp.scss */
+/* line 674, ../sass/AmGirlResp.scss */
 .gutters .third {
   width: 31.3333333%;
 }
 
-/* line 588, ../sass/AmGirlResp.scss */
+/* line 676, ../sass/AmGirlResp.scss */
 .gutters {
   margin-left: -1%;
   margin-right: -1%;
 }
 
 /*Media Queries begin here*/
-/* line 601, ../sass/AmGirlResp.scss */
+/* line 689, ../sass/AmGirlResp.scss */
 .productGrid_3 {
   position: absolute;
   width: 100%;
 }
 
-@media all and (max-width: 75em) {
-  /* line 610, ../sass/AmGirlResp.scss */
-  div {
-    border: 1px dashed yellow;
+@media all and (min-width: 1100) {
+  /* line 697, ../sass/AmGirlResp.scss */
+  .mobile_hide {
+    display: inherit;
   }
 
-  /* line 611, ../sass/AmGirlResp.scss */
+  /* line 701, ../sass/AmGirlResp.scss */
+  .mobile_show {
+    display: none;
+  }
+}
+@media all and (max-width: 1100px) {
+  /* line 707, ../sass/AmGirlResp.scss */
+  html {
+    background-color: lemonchiffon;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 713, ../sass/AmGirlResp.scss */
+  html {
+    background-color: lightgreen;
+  }
+
+  /* line 716, ../sass/AmGirlResp.scss */
+  .mobile_hide {
+    display: none !important;
+  }
+
+  /* line 720, ../sass/AmGirlResp.scss */
+  .mobile_show {
+    display: inline-block;
+  }
+
+  /* line 723, ../sass/AmGirlResp.scss */
+  .logoHolder {
+    background-image: url("../img/AG_Logo.png") !important;
+  }
+
+  /* line 727, ../sass/AmGirlResp.scss */
+  #verticalMenu_Header {
+    display: block !important;
+  }
+  /* line 19, ../sass/AmGirlResp.scss */
+  #verticalMenu_Header .fa {
+    color: #ffffff;
+  }
+  /* line 22, ../sass/AmGirlResp.scss */
+  #verticalMenu_Header .fa:hover {
+    background-color: blue;
+  }
+  /* line 26, ../sass/AmGirlResp.scss */
+  #verticalMenu_Header .topLevelNavMenu, #verticalMenu_Header #verticalMenu_Header ul ul {
+    display: none;
+  }
+  /* line 30, ../sass/AmGirlResp.scss */
+  #verticalMenu_Header #verticalMenu_Header ul li:hover > ul {
+    display: block;
+  }
+  /* line 33, ../sass/AmGirlResp.scss */
+  #verticalMenu_Header #verticalMenu_Header:hover ul.topLevelNavMenu {
+    display: block;
+  }
+  /* line 37, ../sass/AmGirlResp.scss */
+  #verticalMenu_Header .topLevelNavMenu, #verticalMenu_Header ul li {
+    list-style-type: none;
+  }
+  /* line 40, ../sass/AmGirlResp.scss */
+  #verticalMenu_Header .topLevelNavMenu {
+    margin: -.2% 0 0 -3%;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    width: 20%;
+    text-decoration: none;
+  }
+  /* line 47, ../sass/AmGirlResp.scss */
+  #verticalMenu_Header .vertMenuHolder li {
+    background-color: linen;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 2px 0;
+  }
+  /* line 53, ../sass/AmGirlResp.scss */
+  #verticalMenu_Header .vertMenuHolder a {
+    text-decoration: none;
+  }
+
+  /*.topLevelNavMenu,#vertMenuHolder ul ul {
+    display: none;
+  }
+
+  #vertMenuHolder ul li:hover > ul {
+    display: block;
+  }
+  #vertMenuHolder:hover ul.topLevelNavMenu{
+    display: block;
+
+  }
+  .topLevelNavMenu, ul li  {
+    list-style-type: none;
+  }
+  .topLevelNavMenu   {
+    margin: -.2% 0 0 -3%;
+    font-size:1.5em;
+    line-height: 1.2em;
+    width: 20%;
+    text-decoration: none;
+  }
+  .vertMenuHolder li  {
+    background-color: linen;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 2px 0;
+  }
+  .vertMenuHolder a{
+    text-decoration: none;
+  }
+  */
+}
+@media all and (max-width: 30em) {
+  /* line 764, ../sass/AmGirlResp.scss */
+  html {
+    background-color: green;
+  }
+
+  /* line 765, ../sass/AmGirlResp.scss */
+  .mobile_hide {
+    display: none;
+  }
+
+  /* line 769, ../sass/AmGirlResp.scss */
+  .mobile_show {
+    display: inline-block;
+  }
+
+  /* line 772, ../sass/AmGirlResp.scss */
+  .logoHolder {
+    background-image: url("../img/AG_Logo.png") !important;
+  }
+
+  /* line 775, ../sass/AmGirlResp.scss */
   .my-breakpoint.ui-grid-b .ui-block-a {
     width: 49.95%;
   }
 
-  /* line 613, ../sass/AmGirlResp.scss */
+  /* line 777, ../sass/AmGirlResp.scss */
   .my-breakpoint.ui-grid-b .ui-block-b,
   .my-breakpoint.ui-grid-b .ui-block-c {
     width: 24.925%;
   }
 
-  /* line 614, ../sass/AmGirlResp.scss */
+  /* line 778, ../sass/AmGirlResp.scss */
   .my-breakpoint.ui-grid-b .ui-block-a {
     clear: left;
   }
 }
-@media all and (max-width: 65em) {
-  /* line 619, ../sass/AmGirlResp.scss */
-  div {
+@media all and (max-width: 25em) {
+  /* line 783, ../sass/AmGirlResp.scss */
+  html {
     background-color: lightblue;
   }
 
-  /* line 624, ../sass/AmGirlResp.scss */
+  /* line 784, ../sass/AmGirlResp.scss */
+  .mobile_hide {
+    display: none !important;
+  }
+
+  /* line 788, ../sass/AmGirlResp.scss */
+  .mobile_show {
+    display: inline-block;
+  }
+
+  /* line 791, ../sass/AmGirlResp.scss */
+  .logoHolder {
+    background-image: url("../img/AG_Logo.png") !important;
+  }
+
+  /* line 798, ../sass/AmGirlResp.scss */
   .my-breakpoint .ui-block-a,
   .my-breakpoint .ui-block-b,
   .my-breakpoint .ui-block-c,
@@ -707,24 +862,24 @@ footer .disclaimers .legal a {
     float: none;
   }
 }
-/* line 631, ../sass/AmGirlResp.scss */
+/* line 805, ../sass/AmGirlResp.scss */
 .factory {
   width: 100%;
 }
 @media (min-width: 960px) {
-  /* line 631, ../sass/AmGirlResp.scss */
+  /* line 805, ../sass/AmGirlResp.scss */
   .factory {
     width: 62.5%;
   }
 }
 @media (max-width: 768px) {
-  /* line 631, ../sass/AmGirlResp.scss */
+  /* line 805, ../sass/AmGirlResp.scss */
   .factory {
     width: 50%;
   }
 }
 
-/* line 657, ../sass/AmGirlResp.scss */
+/* line 831, ../sass/AmGirlResp.scss */
 .factory {
   width: 100%;
   width: 62.5%;

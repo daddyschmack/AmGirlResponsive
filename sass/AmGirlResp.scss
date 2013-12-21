@@ -1,15 +1,73 @@
+@import "compass";
+
 $base-font-size:16px;
 $berry-dark: #861836;
 $berry-light:#D98AB0;
 $berry-medium:#A10A4E;//bottom of gradient button
 $berry-hot:#CB006D; //top of gradient button
 $berry-borders: #B43A69; //seperators of li and borders
+$max-width: 1124px;
+$filter_Expanded_Px_Width: (224px + 10px); //width of div + right margin
+$filter_Expanded_Pct_Width: percentage($filter_Expanded_Px_Width/$max-width);
+$image_Area_Px_Width: (1124px - $filter_Expanded_Px_Width);
+$image_Area_Pct_Width: percentage(($image_Area_Px_Width+ 50px)/$max-width);
+$banner_width:800px;
 
+
+@mixin verticalMenuStyle{
+
+  .fa{
+    color:#ffffff;
+  }
+  .fa:hover{
+    background-color: blue;
+  }
+
+  .topLevelNavMenu,#verticalMenu_Header ul ul {
+    display: none;
+  }
+
+  #verticalMenu_Header ul li:hover > ul {
+    display: block;
+  }
+  #verticalMenu_Header:hover ul.topLevelNavMenu{
+    display: block;
+
+  }
+  .topLevelNavMenu, ul li  {
+    list-style-type: none;
+  }
+  .topLevelNavMenu   {
+    margin: -.2% 0 0 -3%;
+    font-size:1.5em;
+    line-height: 1.2em;
+    width: 20%;
+    text-decoration: none;
+  }
+  .vertMenuHolder li  {
+    background-color: linen;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 2px 0;
+  }
+  .vertMenuHolder a{
+    text-decoration: none;
+  }
+}
 $ipad: "@media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px)";
 $desktop: "all and (max-width: 75em)";
 $smallphone:"all and (max-width:35em)";
+/* simple utility to show or hide div based on media query default values*/
+
+.mobile_hide{
+  display: inherit ;
+}
+
+.mobile_show{
+  display: none;
+}
 
 /*box shadow styles*/
 
@@ -54,18 +112,55 @@ $smallphone:"all and (max-width:35em)";
 .shadow_all {
   box-shadow: 0px -5px 43px 9px rgba(0,0,0,0.75);
 }
-html{
-  @font-face
-  {
-    font-family: myFirstFont;
-    src: ("fonts/agenda/agenda-light-webfont.woff")
-  }
-}
-body{
-  font-size: $base-font-size;
-  font-family: agenda;
+/* font stuff*/
+@font-face
+{
+  font-family: 'agenda-light';
+  src: url("../stylesheets/fonts/agenda/agenda-light-webfont.otf") format("otf"),
+  url("../stylesheets/fonts/agenda/agenda-light-webfont.eot?") format("eot"),
+  url("../stylesheets/fonts/agenda/agenda-light-webfont.ttf") format("ttf"),
+  url("../stylesheets/fonts/agenda/agenda-light-webfont.svg") format("svg");
+
 }
 
+@font-face
+{
+  font-family: 'agenda-medium';
+  src: url("../stylesheets/fonts/agenda/agenda-medium-webfont.otf") format("otf"),
+  url("../stylesheets/fonts/agenda/agenda-medium-webfont.eot") format("eot"),
+  url("../stylesheets/fonts/agenda/agenda-medium-webfont.ttf") format("ttf"),
+  url("../stylesheets/fonts/agenda/agenda-medium-webfont.svg") format("svg");
+}
+
+
+@font-face
+{
+  font-family: 'agenda-bold';
+  src: url("../stylesheets/fonts/agenda/agenda-bold-webfont.woff") format("woff"),
+  url("../stylesheets/fonts/agenda/agenda-bold-webfont.eot") format("eot"),
+  url("../stylesheets/fonts/agenda/agenda-bold-webfont.ttf") format("ttf"),
+  url("../stylesheets/fonts/agenda/agenda-bold-webfont.svg") format("svg");
+}
+
+html{
+
+
+}
+body{
+
+  font-size: $base-font-size;
+  font-family: Arial, Tahoma, Verdana, Helvetica, sans-serif;
+  box-sizing: border-box;
+  max-width: $max-width;
+  margin:auto;
+}
+.stage{
+
+}
+
+img{
+  max-width:100%;
+}
 /*link styling */
 .berry-GradientButton {
   background-color: $berry-medium;
@@ -75,11 +170,11 @@ body{
   font-size: 18px;
   border:1px solid $berry-dark;
   border-left: none;
-  padding:3% 5.5%;
+  padding:2.4% 5.9%;
   position: relative;
   margin-left:-4px;
-  min-height: 35px;
-  line-height: 35px;
+  min-height: 2em;
+  line-height: 2em;
   width:auto;
 
   a{
@@ -93,15 +188,15 @@ body{
 .innerGlow_Button {
   font-size: 1.15em;
   background-color: #F1DAE5;
-  padding: 1.5% 3.2%;
+  padding: 1.1% 2.43%;
   margin-left: -4px;
   box-shadow: inset 0px -19px 64px 14px rgba(255, 255, 255, 0.95), inset -8px -11px 11px -11px rgba(0, 0, 0, 0.95);
   border: 1px solid #D488A7;
   border-width: 1px 1px 0 0;
   border-bottom: none;
   display: inline-block;
-  min-height: 35px;
-  line-height: 35px;
+  min-height: 2em;
+  line-height: 2em;
   width:auto;
 
     a{
@@ -121,22 +216,31 @@ header{
   height:15%;
   width:100%;
   padding-bottom: 15px ;
-  /*background-image: url("img/AG_Logo.png");*/
+
+  #verticalMenu_Header{
+    display:none;
+  }
+
   .logoHolder{
     display: inline-block;
-    width: 47%;
-    img{
+    background-image: url("../img/AG_Logo_wText.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position-x: 1.25em;
+    height: 60px;
+    width: 52%;
+    /*img{
       padding: 1% 0 0 5%;
       width: 80%;
-    }
+    }*/
   }
 
   .rightSideHeader{
-    width: 49%;
+    width: 41%;
     position: relative;
     display: inline-block;
     color: white;
-    margin: 1.2% 0 1% 1.5%;
+    margin: 1.2% 2% 1% 1.5%;
 
       .menuHolder{
         margin-left: 35%;
@@ -335,7 +439,9 @@ header{
 
 .productArea{
   margin: 1% 2% 2% 3%;
+  box-sizing: border-box;
   text-decoration: none;
+  width: 100%;
   ul:last-of-type{
     li:last-of-type{
    //   background-color: green;
@@ -350,8 +456,8 @@ header{
     display: inline-block;
     vertical-align: top;
     height: 100%;
-    width: 17.5%;
-    margin-right: 2.5%;
+    width: $filter_Expanded_Pct_Width;
+    margin-right: .5%;
     a{
       text-decoration: none;
     }
@@ -393,20 +499,60 @@ header{
   }
 
   .image_Area{
+    margin: 1% 0 0 0;
     display: inline-block;
+    width: 73.5%; //$image_Area_Pct_Width;
     vertical-align: top;
-
+    border: 1px solid blue;
+    padding:0 0;
+    margin:auto;
+    box-sizing: border-box;
     .banner_Area{
       display: block;
       .div_imgHolder{
         display: inline-block;
-        width:58%;
-        white-space: pre;
+        width:percentage(470/800);
         margin-right:2%;
+        .bannerImg{
+           display: inline-block;
+
+        }
         //background-image: url("../img/Img_Historical_Char_Main_noText.png");
         //background-repeat: no-repeat;
         //background-size: 472px 319px;
        // background: url("../img/Img_Historical_Char_Main_noText.png") center right no-repeat;
+      }
+      .imgText{
+        display: inline-block;
+        width: percentage(330/800);
+        font-size: (14px/16px)*1em;
+        vertical-align: top;
+        text-align: center;
+        padding: 8% 0 5% 0;
+        box-sizing: border-box;
+        background-color: #ffffff; // Old browsers
+        @include filter-gradient(#ffffff, #f1dbff, vertical); // IE6-9
+        @include background-image(linear-gradient(top, #ffffff 0%,#f1dbff 100%));
+        p{
+          margin: 8% 6% 3% 6%;
+
+          display: block;
+        }
+      }
+      .small_Headline{
+        font-family: "agenda-medium";
+        font-size: (22px/$base-font-size)* 1em;
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+      .inspire_Headline{
+        font-family: "agenda-light";
+        color:#6C217F;
+        font-size: (26px/$base-font-size)* 1em;
+        display: block;
+        margin-top:1%;
+
       }
     }
     .div_gridHolder{
@@ -488,64 +634,6 @@ footer{
 }
 
 /* the grid code */
-/*this is a test 3 column grid.. we probably won't use it*/
-/*  SECTIONS  */
-.section {
-  clear: both;
-  padding: 0px;
-  margin: 0px;
-}
-
-/*  COLUMN SETUP  */
-.col {
-  display: block;
-  float:left;
-  margin: 1% 0 1% 1.6%;
-}
-.col:first-child { margin-left: 0; }
-
-
-/*  GROUPING  */
-.group:before,
-.group:after {
-  content:"";
-  display:table;
-}
-.group:after {
-  clear:both;
-}
-
-/*  GRID OF THREE  */
-.span_3_of_3 {
-  width: 100%;
-}
-.span_2_of_3 {
-  width: 66.1%;
-}
-.span_1_of_3 {
-  width: 32%;
-}
-
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-
-@media only screen and (max-width: 480px) {
-  .col {
-    margin: 1% 0 1% 0%;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .span_3_of_3 {
-    width: 100%;
-  }
-  .span_2_of_3 {
-    width: 100%;
-  }
-  .span_1_of_3 {
-    width: 100%;
-  }
-}
-/*end of basic three column grid*/
 /* 18 columns grid*/
 /*//////////////////////////////////// grid setup */
 
@@ -605,9 +693,85 @@ footer{
     //style go here content
   }
 }
+@media all and (min-width: 1100) {
+  .mobile_hide{
+    display: inherit ;
+  }
 
-@media all and (max-width: 75em) {
-  div{border: 1px dashed yellow;}
+  .mobile_show{
+    display: none;
+  }
+  
+}
+@media all and (max-width: 1100px){
+    html{
+      background-color: lemonchiffon;
+    }
+
+}
+@media all and (max-width: 768px){
+  html{
+    background-color: lightgreen;
+  }
+  .mobile_hide{
+    display: none!important ;
+  }
+
+  .mobile_show{
+    display: inline-block;
+  }
+  .logoHolder{
+    background-image: url("../img/AG_Logo.png")!important;
+  }
+
+  #verticalMenu_Header{
+    display: block!important;
+  @include verticalMenuStyle;
+}
+  /*.topLevelNavMenu,#vertMenuHolder ul ul {
+    display: none;
+  }
+
+  #vertMenuHolder ul li:hover > ul {
+    display: block;
+  }
+  #vertMenuHolder:hover ul.topLevelNavMenu{
+    display: block;
+
+  }
+  .topLevelNavMenu, ul li  {
+    list-style-type: none;
+  }
+  .topLevelNavMenu   {
+    margin: -.2% 0 0 -3%;
+    font-size:1.5em;
+    line-height: 1.2em;
+    width: 20%;
+    text-decoration: none;
+  }
+  .vertMenuHolder li  {
+    background-color: linen;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 2px 0;
+  }
+  .vertMenuHolder a{
+    text-decoration: none;
+  }
+  */
+}
+@media all and (max-width: 30em) {
+  html{background-color: green;}
+  .mobile_hide{
+    display: none ;
+  }
+
+  .mobile_show{
+    display: inline-block;
+  }
+  .logoHolder{
+    background-image: url("../img/AG_Logo.png")!important;
+  }
   .my-breakpoint.ui-grid-b .ui-block-a { width: 49.95%; }
   .my-breakpoint.ui-grid-b .ui-block-b,
   .my-breakpoint.ui-grid-b .ui-block-c { width: 24.925%; }
@@ -615,8 +779,18 @@ footer{
 }
 
 
-@media all and (max-width: 65em) {
-  div{background-color: lightblue;}
+@media all and (max-width:25em) {
+  html {background-color: lightblue;}
+  .mobile_hide{
+    display: none!important ;
+  }
+
+  .mobile_show{
+    display: inline-block;
+  }
+  .logoHolder{
+    background-image: url("../img/AG_Logo.png")!important;
+  }
   .my-breakpoint .ui-block-a,
   .my-breakpoint .ui-block-b,
   .my-breakpoint .ui-block-c,
