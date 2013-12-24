@@ -6,10 +6,10 @@ $berry-light:#D98AB0;
 $berry-medium:#A10A4E;//bottom of gradient button
 $berry-hot:#CB006D; //top of gradient button
 $berry-borders: #B43A69; //seperators of li and borders
-$max-width: 1124px;
-$filter_Expanded_Px_Width: (224px + 10px); //width of div + right margin
+$max-width: 1120px;
+$filter_Expanded_Px_Width: (180px); //width of div + right margin
 $filter_Expanded_Pct_Width: percentage($filter_Expanded_Px_Width/$max-width);
-$image_Area_Px_Width: (1124px - $filter_Expanded_Px_Width);
+$image_Area_Px_Width: (1114px - $filter_Expanded_Px_Width);
 $image_Area_Pct_Width: percentage(($image_Area_Px_Width+ 50px)/$max-width);
 $banner_width:800px;
 
@@ -26,8 +26,11 @@ $banner_width:800px;
   .topLevelNavMenu,#verticalMenu_Header ul ul {
     display: none;
   }
+  .topLevelNavMenu:hover{
+    border:1px white solid;
+  }
 
-  #verticalMenu_Header ul li:hover > ul {
+  .topLevelNavMenu:hover, #verticalMenu_Header ul li:hover > ul {
     display: block;
   }
   #verticalMenu_Header:hover ul.topLevelNavMenu{
@@ -44,13 +47,13 @@ $banner_width:800px;
     width: 20%;
     text-decoration: none;
   }
-  .vertMenuHolder li  {
+  .topLevelNavMenu li  {
     background-color: linen;
     text-decoration: none;
     font-size: 1em;
     padding: 2px 0;
   }
-  .vertMenuHolder a{
+  .topLevelNavMenu a{
     text-decoration: none;
   }
 }
@@ -167,13 +170,12 @@ img{
   background: -webkit-gradient(linear, 0% 0%, 0% 50%, from($berry-hot), to($berry-medium));
   background: -moz-linear-gradient(top, $berry-hot 0%, $berry-medium 50%);
   display: inline-block;
-  font-size: 18px;
+  font-size: 1.05em;
   border:1px solid $berry-dark;
   border-left: none;
-  padding:2.4% 5.9%;
+  padding: 2.2% 5%;
   position: relative;
   margin-left:-4px;
-  min-height: 2em;
   line-height: 2em;
   width:auto;
 
@@ -186,7 +188,7 @@ img{
   }
 }
 .innerGlow_Button {
-  font-size: 1.15em;
+  font-size: 1.10em;
   background-color: #F1DAE5;
   padding: 1.1% 2.43%;
   margin-left: -4px;
@@ -195,7 +197,6 @@ img{
   border-width: 1px 1px 0 0;
   border-bottom: none;
   display: inline-block;
-  min-height: 2em;
   line-height: 2em;
   width:auto;
 
@@ -253,15 +254,15 @@ header{
             font-size: 1em;
             text-align: left;
             color:$berry-light;
-            margin: 1.5% 21% 0 0;
+            margin: 1% 1% 0 0;
 
           };
           li{
             list-style: none;
-            font-size: 1.25em;
+            font-size: 1.1em;
             display: inline;
             color: white;
-            padding: 4px 8px;
+            padding: 1px 1px;
           };
         li:first-child{
             padding-left:0;
@@ -470,7 +471,7 @@ header{
       }
     }
     .level_3 {
-      padding-bottom: 14px;
+      padding-bottom: (14/16) * 1em;
       border-bottom: 1px solid #cacaca ;
       a{
         color: #F6AFD6;
@@ -483,7 +484,7 @@ header{
       padding: 1% 0 1% 0;
       a{
         color: #000000;
-        font-size: 16px;
+        font-size: 1em;
         font-weight: 400;
       }
     }
@@ -509,19 +510,19 @@ header{
     box-sizing: border-box;
     .banner_Area{
       display: block;
-      .div_imgHolder{
-        display: inline-block;
-        width:percentage(470/800);
-        margin-right:2%;
-        .bannerImg{
+        .bannerImgHolder{
            display: inline-block;
-
+          width:percentage(470/800);
+          margin-right:1%;
+          img{
+            max-width: 85%;
+          }
         }
+
         //background-image: url("../img/Img_Historical_Char_Main_noText.png");
         //background-repeat: no-repeat;
         //background-size: 472px 319px;
        // background: url("../img/Img_Historical_Char_Main_noText.png") center right no-repeat;
-      }
       .imgText{
         display: inline-block;
         width: percentage(330/800);
@@ -694,19 +695,18 @@ footer{
   }
 }
 @media all and (min-width: 1100) {
-  .mobile_hide{
-    display: inherit ;
-  }
+  //.mobile_hide{display: inherit ;  }
 
-  .mobile_show{
-    display: none;
-  }
+  //.mobile_show{display: none; }
+
   
 }
-@media all and (max-width: 1100px){
+@media all and (min-width: 768px) and (max-width: 1024px){
     html{
       background-color: lemonchiffon;
     }
+
+
 
 }
 @media all and (max-width: 768px){
@@ -720,14 +720,102 @@ footer{
   .mobile_show{
     display: inline-block;
   }
+  header{
+    padding-bottom: 0 !important;
+  }
   .logoHolder{
     background-image: url("../img/AG_Logo.png")!important;
+    display: inline-block !important;
+    background-size: 35% !important;
+    margin-top: -6% !important;;
+    margin-left: 33% !important;
+    height: 50px !important;
+    width: 100% !important;
+  }
+  #verticalMenu_Header{
+    display: inline-block !important;
+    margin-left: 3.5% !important;
+    @include verticalMenuStyle;
+
+  }
+  /* hide the menus across the top*/
+  .rightSideHeader{
+    display:block !important;
+    width:100% !important;
+    box-shadow: 1px -5px 29px -2px rgba(31,30,31,0.42);
+   // -moz-box-shadow: 4px -10px 45px -2px rgba(31,30,31,0.42);
+    //-webkit-box-shadow: 4px -10px 45px -2px rgba(31,30,31,0.42);
+    .searchHolder{
+      margin-left: 2% !important;
+      display: inline-block !important;
+      width: 60% !important;
+      margin-top:1%;
+
+        input {
+          //padding-left: %;
+          display: inline-block;
+          width: 80%;
+          border: none;
+          text-align: left;
+        }
+
+    }
+
+  }
+  .checkoutMenu{
+    display:none !important;
   }
 
-  #verticalMenu_Header{
-    display: block!important;
-  @include verticalMenuStyle;
-}
+  .telLink{
+   margin-top: -9.5% !important;
+   margin-right:4%;
+
+  }
+  .berry-GradientButton{
+    background: inherit !important;
+    padding: 0;
+    margin-left:2%;
+    border: none;
+  }
+  #second_Menu_Holder{
+    display:none !important;
+  }
+  #third_Menu_Holder{
+    height:1px;
+  .product_Category_Link_Menu{
+    display:none !important;
+  }
+    .shoppingActionsMenu {
+      margin-top: -4.75% !important;
+      right: -14% !important;
+
+
+    }
+    .shadow_top {
+      box-shadow: none;
+    }
+    #checkOutLink{
+      display:none !important;
+    }
+
+  }
+  .grayBar{
+    display:none !important;
+  }
+  .content{
+    padding-top:1% !important;
+    .filter_Expanded{
+      display: block !important;
+    }
+    .image_Area{
+      display: block !important;
+      width:100% !important;
+    }
+    .bannerImgHolder{
+      width:100% !important;
+      display: block !important;
+    }
+  }
   /*.topLevelNavMenu,#vertMenuHolder ul ul {
     display: none;
   }
