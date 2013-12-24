@@ -681,41 +681,37 @@ footer .disclaimers .legal a {
   }
 }
 @media all and (max-width: 768px) {
-  /* line 713, ../sass/AmGirlResp.scss */
-  html {
-    background-color: lightgreen;
-  }
-
-  /* line 716, ../sass/AmGirlResp.scss */
+  /* line 714, ../sass/AmGirlResp.scss */
   .mobile_hide {
     display: none !important;
   }
 
-  /* line 720, ../sass/AmGirlResp.scss */
+  /* line 718, ../sass/AmGirlResp.scss */
   .mobile_show {
     display: inline-block;
   }
 
-  /* line 723, ../sass/AmGirlResp.scss */
+  /* line 721, ../sass/AmGirlResp.scss */
   header {
     padding-bottom: 0 !important;
   }
 
-  /* line 726, ../sass/AmGirlResp.scss */
+  /* line 724, ../sass/AmGirlResp.scss */
   .logoHolder {
     background-image: url("../img/AG_Logo.png") !important;
     display: inline-block !important;
-    background-size: 35% !important;
-    margin-top: -6% !important;
-    margin-left: 33% !important;
+    background-size: 65% !important;
+    margin-top: 0 !important;
+    margin-left: 32% !important;
     height: 50px !important;
-    width: 100% !important;
   }
 
-  /* line 735, ../sass/AmGirlResp.scss */
+  /* line 733, ../sass/AmGirlResp.scss */
   #verticalMenu_Header {
     display: inline-block !important;
-    margin-left: 3.5% !important;
+    margin-left: 4.5% !important;
+    margin-top: 2%;
+    position: absolute;
   }
   /* line 19, ../sass/AmGirlResp.scss */
   #verticalMenu_Header .fa {
@@ -770,16 +766,17 @@ footer .disclaimers .legal a {
   .rightSideHeader {
     display: block !important;
     width: 100% !important;
+    margin: 1.2% 2% 1% 0 !important;
     box-shadow: 1px -5px 29px -2px rgba(31, 30, 31, 0.42);
   }
-  /* line 748, ../sass/AmGirlResp.scss */
+  /* line 749, ../sass/AmGirlResp.scss */
   .rightSideHeader .searchHolder {
-    margin-left: 2% !important;
+    margin-left: 4.5% !important;
     display: inline-block !important;
     width: 60% !important;
     margin-top: 1%;
   }
-  /* line 754, ../sass/AmGirlResp.scss */
+  /* line 755, ../sass/AmGirlResp.scss */
   .rightSideHeader .searchHolder input {
     display: inline-block;
     width: 80%;
@@ -787,18 +784,18 @@ footer .disclaimers .legal a {
     text-align: left;
   }
 
-  /* line 765, ../sass/AmGirlResp.scss */
+  /* line 766, ../sass/AmGirlResp.scss */
   .checkoutMenu {
     display: none !important;
   }
 
-  /* line 769, ../sass/AmGirlResp.scss */
+  /* line 770, ../sass/AmGirlResp.scss */
   .telLink {
-    margin-top: -9.5% !important;
+    margin-top: -8.5% !important;
     margin-right: 4%;
   }
 
-  /* line 774, ../sass/AmGirlResp.scss */
+  /* line 775, ../sass/AmGirlResp.scss */
   .berry-GradientButton {
     background: inherit !important;
     padding: 0;
@@ -806,55 +803,71 @@ footer .disclaimers .legal a {
     border: none;
   }
 
-  /* line 780, ../sass/AmGirlResp.scss */
+  /* line 781, ../sass/AmGirlResp.scss */
   #second_Menu_Holder {
     display: none !important;
   }
 
-  /* line 783, ../sass/AmGirlResp.scss */
+  /* line 784, ../sass/AmGirlResp.scss */
   #third_Menu_Holder {
     height: 1px;
   }
-  /* line 785, ../sass/AmGirlResp.scss */
+  /* line 786, ../sass/AmGirlResp.scss */
   #third_Menu_Holder .product_Category_Link_Menu {
     display: none !important;
   }
-  /* line 788, ../sass/AmGirlResp.scss */
+  /* line 789, ../sass/AmGirlResp.scss */
   #third_Menu_Holder .shoppingActionsMenu {
-    margin-top: -4.75% !important;
+    margin-top: -8% !important;
     right: -14% !important;
   }
-  /* line 794, ../sass/AmGirlResp.scss */
+  /* line 795, ../sass/AmGirlResp.scss */
   #third_Menu_Holder .shadow_top {
     box-shadow: none;
   }
-  /* line 797, ../sass/AmGirlResp.scss */
+  /* line 798, ../sass/AmGirlResp.scss */
   #third_Menu_Holder #checkOutLink {
     display: none !important;
   }
 
-  /* line 802, ../sass/AmGirlResp.scss */
+  /* line 803, ../sass/AmGirlResp.scss */
   .grayBar {
     display: none !important;
   }
 
-  /* line 805, ../sass/AmGirlResp.scss */
+  /* line 806, ../sass/AmGirlResp.scss */
+  #content.content.shadow_top {
+    box-shadow: none;
+  }
+
+  /* line 809, ../sass/AmGirlResp.scss */
   .content {
     padding-top: 1% !important;
+    margin: 2% 1%;
   }
-  /* line 807, ../sass/AmGirlResp.scss */
+  /* line 813, ../sass/AmGirlResp.scss */
   .content .filter_Expanded {
     display: block !important;
   }
-  /* line 810, ../sass/AmGirlResp.scss */
+  /* line 816, ../sass/AmGirlResp.scss */
   .content .image_Area {
     display: block !important;
     width: 100% !important;
   }
-  /* line 814, ../sass/AmGirlResp.scss */
+  /* line 820, ../sass/AmGirlResp.scss */
   .content .bannerImgHolder {
     width: 100% !important;
     display: block !important;
+  }
+  /* line 823, ../sass/AmGirlResp.scss */
+  .content .bannerImgHolder img {
+    max-width: 98% !important;
+    width: 98% !important;
+    margin: 1%;
+  }
+  /* line 830, ../sass/AmGirlResp.scss */
+  .content .imgText {
+    width: 99% !important;
   }
 
   /*.topLevelNavMenu,#vertMenuHolder ul ul {
@@ -890,64 +903,72 @@ footer .disclaimers .legal a {
   */
 }
 @media all and (max-width: 30em) {
-  /* line 852, ../sass/AmGirlResp.scss */
+  /* line 867, ../sass/AmGirlResp.scss */
   html {
     background-color: green;
   }
 
-  /* line 853, ../sass/AmGirlResp.scss */
+  /* line 868, ../sass/AmGirlResp.scss */
+  .telLink {
+    margin-top: -12.5% !important;
+  }
+
+  /* line 871, ../sass/AmGirlResp.scss */
   .mobile_hide {
     display: none;
   }
 
-  /* line 857, ../sass/AmGirlResp.scss */
+  /* line 875, ../sass/AmGirlResp.scss */
   .mobile_show {
     display: inline-block;
   }
 
-  /* line 860, ../sass/AmGirlResp.scss */
+  /* line 878, ../sass/AmGirlResp.scss */
   .logoHolder {
     background-image: url("../img/AG_Logo.png") !important;
+    margin-left: 26% !important;
+    background-size: 75% !important;
   }
 
-  /* line 863, ../sass/AmGirlResp.scss */
-  .my-breakpoint.ui-grid-b .ui-block-a {
-    width: 49.95%;
+  /* line 883, ../sass/AmGirlResp.scss */
+  .berry-GradientButton {
+    margin-left: -26% !important;
   }
 
-  /* line 865, ../sass/AmGirlResp.scss */
+  /* line 887, ../sass/AmGirlResp.scss */
+  #third_Menu_Holder .shoppingActionsMenu {
+    margin-top: -10.5% !important;
+  }
+
+  /* line 893, ../sass/AmGirlResp.scss */
+  .my-breakpoint.ui-grid-b .ui-block-a,
   .my-breakpoint.ui-grid-b .ui-block-b,
   .my-breakpoint.ui-grid-b .ui-block-c {
-    width: 24.925%;
-  }
-
-  /* line 866, ../sass/AmGirlResp.scss */
-  .my-breakpoint.ui-grid-b .ui-block-a {
-    clear: left;
+    width: 49.95%;
   }
 }
 @media all and (max-width: 25em) {
-  /* line 871, ../sass/AmGirlResp.scss */
+  /* line 899, ../sass/AmGirlResp.scss */
   html {
     background-color: lightblue;
   }
 
-  /* line 872, ../sass/AmGirlResp.scss */
+  /* line 900, ../sass/AmGirlResp.scss */
   .mobile_hide {
     display: none !important;
   }
 
-  /* line 876, ../sass/AmGirlResp.scss */
+  /* line 904, ../sass/AmGirlResp.scss */
   .mobile_show {
     display: inline-block;
   }
 
-  /* line 879, ../sass/AmGirlResp.scss */
+  /* line 907, ../sass/AmGirlResp.scss */
   .logoHolder {
     background-image: url("../img/AG_Logo.png") !important;
   }
 
-  /* line 886, ../sass/AmGirlResp.scss */
+  /* line 914, ../sass/AmGirlResp.scss */
   .my-breakpoint .ui-block-a,
   .my-breakpoint .ui-block-b,
   .my-breakpoint .ui-block-c,
@@ -957,24 +978,24 @@ footer .disclaimers .legal a {
     float: none;
   }
 }
-/* line 893, ../sass/AmGirlResp.scss */
+/* line 921, ../sass/AmGirlResp.scss */
 .factory {
   width: 100%;
 }
 @media (min-width: 960px) {
-  /* line 893, ../sass/AmGirlResp.scss */
+  /* line 921, ../sass/AmGirlResp.scss */
   .factory {
     width: 62.5%;
   }
 }
 @media (max-width: 768px) {
-  /* line 893, ../sass/AmGirlResp.scss */
+  /* line 921, ../sass/AmGirlResp.scss */
   .factory {
     width: 50%;
   }
 }
 
-/* line 919, ../sass/AmGirlResp.scss */
+/* line 947, ../sass/AmGirlResp.scss */
 .factory {
   width: 100%;
   width: 62.5%;

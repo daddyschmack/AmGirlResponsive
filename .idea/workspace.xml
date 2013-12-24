@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/22d9bd499a541bf9b56fa766a0a2e30a27f3f189/AmGirlResp.scssc" afterPath="$PROJECT_DIR$/.sass-cache/22d9bd499a541bf9b56fa766a0a2e30a27f3f189/AmGirlResp.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/AmGirlResp.css" afterPath="$PROJECT_DIR$/stylesheets/AmGirlResp.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/AmGirlResp.scss" afterPath="$PROJECT_DIR$/sass/AmGirlResp.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAlignment.html" afterPath="$PROJECT_DIR$/TestAlignment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/amGirlResp.html" afterPath="$PROJECT_DIR$/amGirlResp.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -33,7 +32,7 @@
       <file leaf-file-name="AmGirlResp.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="795" column="5" selection-start="17077" selection-end="17077" vertical-scroll-proportion="0.8143101" vertical-offset="11447" max-vertical-offset="14070">
+            <state line="891" column="3" selection-start="18882" selection-end="18882" vertical-scroll-proportion="0.770017" vertical-offset="12913" max-vertical-offset="14490">
               <folding />
             </state>
           </provider>
@@ -42,7 +41,7 @@
       <file leaf-file-name="AmGirlResp.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/AmGirlResp.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="986" column="0" selection-start="23601" selection-end="23601" vertical-scroll-proportion="-30.0" vertical-offset="14010" max-vertical-offset="14880">
+            <state line="1007" column="0" selection-start="24155" selection-end="24155" vertical-scroll-proportion="-32.307693" vertical-offset="14265" max-vertical-offset="15195">
               <folding />
             </state>
           </provider>
@@ -51,7 +50,7 @@
       <file leaf-file-name="amGirlResp.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/amGirlResp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="63" selection-start="6215" selection-end="6215" vertical-scroll-proportion="-6.02" vertical-offset="1304" max-vertical-offset="4605">
+            <state line="214" column="74" selection-start="12356" selection-end="12356" vertical-scroll-proportion="-9.44" vertical-offset="2738" max-vertical-offset="4770">
               <folding>
                 <element signature="tag#div#1;tag#div#0;tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
@@ -112,8 +111,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="35" />
+    <option name="x" value="6" />
+    <option name="y" value="22" />
     <option name="width" value="1407" />
     <option name="height" value="825" />
   </component>
@@ -302,11 +301,15 @@
       <created>1387586005110</created>
       <updated>1387586005110</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="got the header looking right in the light green phase.. (768)  Need to fix up the bottom area..  Just  about finished, it's working, but I could have done it better. I will next iteration.">
+      <created>1387845581650</created>
+      <updated>1387845581650</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="35" width="1407" height="825" extended-state="0" />
+    <frame x="6" y="22" width="1407" height="825" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.49964464" order="0" side_tool="false" content_ui="tabs" />
@@ -318,7 +321,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07123288" sideWeight="0.50035536" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07123288" sideWeight="0.49964464" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07123288" sideWeight="0.49964464" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -340,7 +343,8 @@
     <MESSAGE value="had to update scss as the a in the cat nav class was inheriting from the horizontal nav class.." />
     <MESSAGE value="updated amGirlResp to have both image areas.  The top has a the jquery responsive grid, but we can't use it because you can't do unbalanced or combined columns.  We will consider a couple other ones, although it looks like it might be easier to just write our own CSS" />
     <MESSAGE value="general updates, I put the default values in the Sass code.  I am working with the responsive vertical menu.  I did implement the phone link responsive icon." />
-    <option name="LAST_COMMIT_MESSAGE" value="general updates, I put the default values in the Sass code.  I am working with the responsive vertical menu.  I did implement the phone link responsive icon." />
+    <MESSAGE value="got the header looking right in the light green phase.. (768)  Need to fix up the bottom area..  Just  about finished, it's working, but I could have done it better. I will next iteration." />
+    <option name="LAST_COMMIT_MESSAGE" value="got the header looking right in the light green phase.. (768)  Need to fix up the bottom area..  Just  about finished, it's working, but I could have done it better. I will next iteration." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -350,7 +354,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="465">
           <folding>
-            <marker date="1387839839000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1387851243000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -375,7 +379,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="465">
           <folding>
-            <marker date="1387839839000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1387851243000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -412,7 +416,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="0" selection-start="4407" selection-end="4407" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="900">
           <folding>
-            <marker date="1387839839000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1387851243000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -445,25 +449,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/AmGirlResp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1007" column="0" selection-start="24155" selection-end="24155" vertical-scroll-proportion="-32.307693" vertical-offset="14265" max-vertical-offset="15195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/amGirlResp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="63" selection-start="6215" selection-end="6215" vertical-scroll-proportion="-6.02" vertical-offset="1304" max-vertical-offset="4605">
+        <state line="214" column="74" selection-start="12356" selection-end="12356" vertical-scroll-proportion="-9.44" vertical-offset="2738" max-vertical-offset="4770">
           <folding>
             <element signature="tag#div#1;tag#div#0;tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/AmGirlResp.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="986" column="0" selection-start="23601" selection-end="23601" vertical-scroll-proportion="-30.0" vertical-offset="14010" max-vertical-offset="14880">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="795" column="5" selection-start="17077" selection-end="17077" vertical-scroll-proportion="0.8143101" vertical-offset="11447" max-vertical-offset="14070">
+        <state line="891" column="3" selection-start="18882" selection-end="18882" vertical-scroll-proportion="0.770017" vertical-offset="12913" max-vertical-offset="14490">
           <folding />
         </state>
       </provider>

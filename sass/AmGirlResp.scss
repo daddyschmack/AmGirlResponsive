@@ -710,9 +710,7 @@ footer{
 
 }
 @media all and (max-width: 768px){
-  html{
-    background-color: lightgreen;
-  }
+
   .mobile_hide{
     display: none!important ;
   }
@@ -726,15 +724,17 @@ footer{
   .logoHolder{
     background-image: url("../img/AG_Logo.png")!important;
     display: inline-block !important;
-    background-size: 35% !important;
-    margin-top: -6% !important;;
-    margin-left: 33% !important;
+    background-size: 65% !important;
+    margin-top: 0 !important;;
+    margin-left: 32% !important;
     height: 50px !important;
-    width: 100% !important;
+    //width: 100% !important;
   }
   #verticalMenu_Header{
     display: inline-block !important;
-    margin-left: 3.5% !important;
+    margin-left: 4.5% !important;
+    margin-top: 2%;
+    position: absolute;
     @include verticalMenuStyle;
 
   }
@@ -742,11 +742,12 @@ footer{
   .rightSideHeader{
     display:block !important;
     width:100% !important;
+    margin: 1.2% 2% 1% 0 !important;
     box-shadow: 1px -5px 29px -2px rgba(31,30,31,0.42);
    // -moz-box-shadow: 4px -10px 45px -2px rgba(31,30,31,0.42);
     //-webkit-box-shadow: 4px -10px 45px -2px rgba(31,30,31,0.42);
     .searchHolder{
-      margin-left: 2% !important;
+      margin-left: 4.5% !important;
       display: inline-block !important;
       width: 60% !important;
       margin-top:1%;
@@ -767,7 +768,7 @@ footer{
   }
 
   .telLink{
-   margin-top: -9.5% !important;
+   margin-top: -8.5% !important;
    margin-right:4%;
 
   }
@@ -786,7 +787,7 @@ footer{
     display:none !important;
   }
     .shoppingActionsMenu {
-      margin-top: -4.75% !important;
+      margin-top: -8% !important;
       right: -14% !important;
 
 
@@ -802,8 +803,13 @@ footer{
   .grayBar{
     display:none !important;
   }
+  #content.content.shadow_top{
+    box-shadow: none;
+  }
   .content{
     padding-top:1% !important;
+    margin:2% 1%;
+
     .filter_Expanded{
       display: block !important;
     }
@@ -814,6 +820,15 @@ footer{
     .bannerImgHolder{
       width:100% !important;
       display: block !important;
+      img{
+        max-width: 98% !important;
+        width: 98% !important;
+        margin:1%;
+      ;
+      }
+    }
+    .imgText{
+      width: 99% !important;
     }
   }
   /*.topLevelNavMenu,#vertMenuHolder ul ul {
@@ -850,6 +865,9 @@ footer{
 }
 @media all and (max-width: 30em) {
   html{background-color: green;}
+  .telLink {
+    margin-top: -12.5% !important;
+  }
   .mobile_hide{
     display: none ;
   }
@@ -859,11 +877,21 @@ footer{
   }
   .logoHolder{
     background-image: url("../img/AG_Logo.png")!important;
+    margin-left: 26% !important;
+    background-size: 75% !important;
   }
-  .my-breakpoint.ui-grid-b .ui-block-a { width: 49.95%; }
+  .berry-GradientButton {
+    margin-left: -26% !important;
+  }
+  #third_Menu_Holder{
+     .shoppingActionsMenu {
+      margin-top: -10.5% !important;
+    }
+  }
+  .my-breakpoint.ui-grid-b .ui-block-a,
   .my-breakpoint.ui-grid-b .ui-block-b,
-  .my-breakpoint.ui-grid-b .ui-block-c { width: 24.925%; }
-  .my-breakpoint.ui-grid-b .ui-block-a { clear: left; }
+  .my-breakpoint.ui-grid-b .ui-block-c  { width: 49.95%; }
+ // .my-breakpoint.ui-grid-b .ui-block-a { clear: left; }
 }
 
 
