@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title></title>
+
+    <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css"/>
+    <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css"/>
+    <!--[if IE]>
+    <link href="stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0-rc.1/jquery.mobile-1.4.0-rc.1.css">
+    <link href="stylesheets/AmGirlResp.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+<header>
+    <div id="verticalMenu_Header"><i class="fa fa-bars fa-2x"> </i>
+
+        <ul class="topLevelNavMenu">
+            <li class="topLevelItem"> <a href="#" class="topLevel_a">Activity</a>
+                <ul>
+                    <li><a href="#" onclick="javascript:alert('Let\'s Shop');">Shop</a></li>
+                    <li><a href="#" onclick="javascript:alert('Let\'s Play');">Play</a></li>
+                    <li><a href="#" onclick="javascript:alert('Find Stores');">Stores</a></li>
+                </ul>
+            </li>
+            <li class="topLevelItem"> <a href="#" class="topLevel_a">Topic Menu</a>
+                <ul>
+                    <li><a href="#" onclick="javascript:alert('Gift Guide');">Gift Guide</a></li>
+                    <li><a href="#" onclick="javascript:alert('Sale');">Sale</a></li>
+                    <li><a href="#" onclick="javascript:alert('What\'s New');">What's New</a></li>
+                    <li><a href="#" onclick="javascript:alert('Seasonal Categories');">Seasonal Category</a></li>
+                    <li><a href="#" onclick="javascript:alert('Doll Care');">Dolls Care</a></li> <!-- menu area1 left -->
+                </ul>
+            </li>
+            <li class="topLevelItem"> <a href="#" class="topLevel_a">Shop by Category</a>
+                <ul>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Dolls');">Dolls</a></li>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('BookStore');">Bookstore</a></li>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Clothing');">Clothing</a></li>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Furniture');">Furniture</a></li>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Accesories');">Accesories</a></li>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Magazine');">Magazine</a></li>
+                </ul>
+            </li>
+            <li class="topLevelItem"> <a href="#" class="topLevel_a">About Me</a>
+                <ul class="linkMenu_horizontal linkMenu_Right">
+                    <li><a href="#" onclick="javascript:alert('My Account');">My Account</a></li>
+                    <li><a href="#" onclick="javascript:alert('Gift Registry');">Gift Registry</a></li>           <!--menu area1 right (account info) -->
+                </ul>
+            </li>
+        </ul>
+        </span>
+
+    </div>
+
+    <span class="logoHolder">
+    <!--<img src="img/AG_Logo_wText.png">-->
+
+    </span>
+    <!-- contains-->
+     <span class="rightSideHeader">
+        <span class="menuHolder">
+             <ul class="checkoutMenu">
+                 <li>Shop</li> | <li>Play</li> | <li>Stores</li>
+             </ul>
+             <a class="telLink" href="tel:+18003601861"><span class="telLink mobile_hide">800-361-1861 </span><i class="fa fa-phone fa-2x mobile_show"></i></a>
+       </span>
+     <form id="searchForm" >
+         <span class="searchHolder insetField">
+             <input type="text" class="searchField" placeholder=""> | <a href="#" onclick="form.submit()"></a>
+                <i class="fa fa-search"></i>
+             </input>
+         </span>
+     </form>
+   </span>
+
+</header>
+<div id="content" class="content shadow_top">
+    <div id="second_Menu_Holder" class="Menu_Holder_body_1">
+        <ul class="linkMenu_horizontal categoryMenu">
+            <li><a href="#" onclick="javascript:alert('Gift Guide');">Gift Guide</a></li> |
+            <li><a href="#" onclick="javascript:alert('Sale');">Sale</a></li> |
+            <li><a href="#" onclick="javascript:alert('What\'s New');">What's New</a></li> |
+            <li><a href="#" onclick="javascript:alert('Seasonal Categories');">Seasonal Category</a></li> |
+            <li><a href="#" onclick="javascript:alert('Doll Care');">Dolls Care</a></li> <!-- menu area1 left -->
+        </ul>
+        <ul class="linkMenu_horizontal linkMenu_Right">
+            <li><a href="#" onclick="javascript:alert('My Account');">My Account</a></li> |
+            <li><a href="#" onclick="javascript:alert('Gift Registry');">Gift Registry</a></li>           <!--menu area1 right (account info) -->
+        </ul>
+    </div>
+    <div id="third_Menu_Holder" class="Menu_Holder_body_2">
+        <!-- menu area2 left (product categories)-->
+        <ul class="product_Category_Link_Menu shadow_top">
+            <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Dolls');">Dolls</a></li>
+            <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('BookStore');">Bookstore</a></li>
+            <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Clothing');">Clothing</a></li>
+            <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Furniture');">Furniture</a></li>
+            <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Accesories');">Accesories</a></li>
+            <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Magazine');">Magazine</a></li>
+        </ul>
+        <ul class="shoppingActionsMenu shadow_top">
+            <li class="berry-GradientButton" id="viewBagLink"><a href="#" onclick="javascript:alert('View Shopping Bag');">View <span id="shoppingBagText" class="mobile_hide">Shopping</span> Bag
+            (5)</a></li>
+            <li class="berry-GradientButton" id="checkOutLink" ><a href="#" onclick="javascript:alert('Checkout');">Checkout</a></li>
+        </ul>
+    </div>
+
+    <!-- blank gray area--- breadcrumb holder? -->
+    <div class="grayBar">
+
+    </div>
+    <!-- category/product navigation link bar -->
+    <ul class="linkMenu_horizontal cat-Nav">
+        <li><a href="#" onclick="javascript:alert('Back To Catgory');">Back to Category</a></li>
+        |
+        <li><a href="#" onclick="javascript:alert('Nav Previous');">Previous</a></li>
+        |
+        <li><a href="#" onclick="javascript:alert('Nav Next');">Next</a> </li>
+    </ul>
+    <div class="berry_seperator_span">&nbsp</div>
+    <!-- product area
+     left side category filter -- (This becomes a select filter on responsive layout
+        menu (bold)
+            submenu (regular)
+     Right side product grid
+        picture/article and aside
+        3xN grid for product pictures in desktop mode
+        Grid footer
+        -->
+    <div class="productArea">
+        <span class="filter_Expanded">
+            <div class="level_2"> <a href="#" onclick="alert('Shop Dolls')">Shop Dolls</a></div>
+            <div class="level_3"> <a href="#" onclick="alert('Should this Expand?')">By Product Line</a></div>
+            <ul>
+                <li class="p_category"> <a href="#" onclick="alert('Historical Characters')">Historical Characters 	</a>
+                   <ul>
+                       <li class="product"> <a href="#" onclick="alert('Addy')">Addy</a></li>
+                        <li class="product"> <a href="#" onclick="alert('Caroline')">Caroline</a></li>
+                        <li class="product"> <a href="#" onclick="alert('Josefina')">Josefina</a></li>
+                        <li class="product"> <a href="#" onclick="alert('Kaya')">Kaya</a></li>
+                        <li class="product"> <a href="#" onclick="alert('Kit & Ruthie')">Kit & Ruthie</a></li>
+                        <li class="product"> <a href="#" onclick="alert('Kaya')">Kaya</a></li>
+                        <li class="product"> <a href="#" onclick="alert('Marie-Grace & Cecile')">Marie-Grace & Cecile</a></li>
+                        <li class="product"> <a href="#" onclick="alert('Mollie & Emily')">Mollie & Emily</a></li>
+                        <li class="product"> <a href="#" onclick="alert('Rebecca')">Rebecca</a></li>
+                    </ul>
+                 </li>
+            </ul>
+            <ul>
+                <li class="p_category"> <a href="#" onclick="alert('Girl of the Year: Saige')">Girl of the Year: Saige</a></li>
+            </ul>
+            <ul>
+                <li class="p_category"> <a href="#" onclick="alert('My American Girl')">My American Girl</a></li>
+            </ul>
+            <ul>
+                <li class="p_category"> <a href="#" onclick="alert('Bitty Baby')">Bitty Baby</a></li>
+            </ul>
+            <ul>
+                <li class="p_category"> <a href="#" onclick="alert('Bitty Twins')">Bitty Twins</a></li>
+            </ul>
+            <ul>
+                <li class="p_category"> <a href="#" onclick="alert('Doll Care')">Doll Care</a>
+                    <ul>
+                        <li class="product"> <a href="#" onclick="alert('Doll Features')">Doll Features</a></li>
+                        <li class="product"> <a href="#" onclick="alert('Hair & Skin Care')">Hair & Skin Care</a></li>
+                        <li class="product"> <a href="#" onclick="alert('Doll Hospital')">Doll Hospital</a></li>
+                        <li class="product"> <a href="#" onclick="alert('Doll Storage')">Doll Storage</a></li>
+                        <li class="product"> <a href="#" onclick="alert('Doll Care Products')">Doll Care Products</a></li>
+                    </ul>
+                </li>
+            </ul>
+          <div class="level_3"> <a href="#" onclick="alert('Sort by category')">By Category</a></div>
+                <ul>
+                    <li class="p_category"> <a href="#" onclick="alert('New Dolls')">New Dolls</a></li>
+                    <li class="p_category"> <a href="#" onclick="alert('Dolls for Ages 8+')">Dolls for Ages 8+</a></li>
+                    <li class="p_category"> <a href="#" onclick="alert('Dolls for Ages 3+')">Dolls for Ages 3+</a></li>
+
+                </ul>
+        </span>
+        <span class="image_Area">
+            <div class="banner_Area">
+                <span class="bannerImgHolder">
+                    <img class="bannerImg" src="img/Img_Historical_Char_Main_noText.png">
+                </span>
+                <span class="imgText">
+                    <span class="small_Headline">Historical Characters</span>
+                    <span class="inspire_Headline">Inspiration from America's past</span>
+                       <p>
+                           Mixing adventure with actual events, the stories of our historical characters bring to life important
+                           times for America. Each character stars in a six-book series that helps girls learn about friendship,
+                           courage, compassion, and, most of all, about themselves. These 18-inch dolls are for ages 8 and up.
+                       </p>
+                 </span>
+            </div>
+                <div class="productArea">
+                    <img src="img/Kaya_Img.png" class="grid_image">
+                    <img src="img/Josefina_Img.png" class="grid_image">
+                    <img src="img/Kaya_2.png" class="grid_image">
+                    <img src="img/LaTisha.png" class="grid_image">
+                    <img src="img/Miss_Ogeny.png" class="grid_image">
+
+             </div>
+            <div class="grayBar bottomBox">
+
+                 <span class="big_Text">New Styles to celebrate</span><br>
+                <span class="small_Text">Find the latest looks for dolls and girls</span>
+
+
+
+            </div>
+        </span>
+    </div>
+</div>
+<!-- end content -->
+<footer class="shadow_top_footer">
+    <!-- contains:
+    site navigation link list + 15 columns
+    or
+    Site navigation include in 18 columns
+    copywrite/disclaimer area -entire width
+    -->
+    <div class="footerLinks">
+        <div class="column" id="columnOne">
+            <div class="footerSection" id="getToKnowUs">
+                <div class="footerHeader">Get to Know Us</div>
+                <ul>
+                    <li><a href="http://www.americangirl.com/corp/">About American Girl</a></li>
+                    <li><a href="http://corporate.mattel.com/careers/default.aspx">Careers</a></li>
+                    <li><a href="http://www.americangirl.com/archives/">American Girl Archives</a></li>
+                    <li><a href="http://www.americangirl.com/shineonnow/">Shine on Now</a></li>
+                    <li><a href="http://www.americangirl.com/corp/corporate.php?section=new&amp;id=3">For Parents &amp; Teachers</a></li>
+                </ul>
+            </div>
+            <div class="footerSection" id="giftIdeas">
+                <div class="footerHeader">Gift Ideas</div>
+                <ul>
+                    <li><a href="/agshop/html/thumbnail/id/1675/uid/425">Gift Cards</a></li>
+                    <!--<li><a href="/agshop/html/thumbnail/id/1675/uid/917">Gift Cards</a></li>-->
+                    <li><a href="/agshop/static/giftGuide.jsp">Gift Guide</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="column" id="columnTwo">
+            <div class="footerSection" id="letUsHelpYou">
+                <div class="footerHeader">Let Us Help You</div>
+                <ul>
+                    <li><a href="/agshop/static/contactUs.jsp">Contact Us</a></li>
+                    <li><a href="/agshop/static/faqs.jsp">Frequently Asked Questions</a></li>
+                    <li><a href="/agshop/static/sizecharts.jsp">View Size Charts</a></li>
+                    <li><a href="/agshop/static/dollHospital.jsp">Doll Hospital</a></li>
+                    <li><a href="/agshop/static/dollcare.jsp">Doll Care</a></li>
+                    <li><a href="/static/popups/promise.html" onclick="common.openSupplPop('/static/popups/promise.html');return false;">Our Promise &amp; Guarantee</a></li>
+                    <li><a href="/agshop/static/assembly.jsp">Assembly Instructions</a></li>
+                    <li><a href="/static/commonStaticImgs/order_form.pdf">Printable Order Form</a></li>
+                    <li><a href="/agshop/static/faqs.jsp#40a">Catalogue Mailing Preferences</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="column" id="columnThree">
+            <div class="footerSection" id="orderInformation">
+                <div class="footerHeader">Order Information</div>
+                <ul>
+                    <li><a href="/order_status/order_status.php">Order Status</a></li>
+                    <li><a href="/account/account.php">Access Your Account</a></li>
+                    <li><a href="/agshop/static/shippingInfo.jsp">Shipping Information</a></li>
+                    <li><a href="/agshop/static/returns.jsp">Returns</a></li>
+                </ul>
+            </div>
+            <div class="footerSection" id="ourStores">
+                <div class="footerHeader">Our Stores</div>
+                <ul>
+                    <li><a href="http://www.americangirl.com/stores/?locations-pop">Store Locations</a></li>
+                </ul>
+            </div>
+            <div class="footerSection" id="ourSite">
+                <div class="footerHeader">Our Site</div>
+                <ul>
+                    <li><a href="http://www.americangirlpublishing.com/">Book Retailer Site</a></li>
+                    <li><a href="/agshop/html/sitemap">Site Map</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="column" id="columnFour">
+            <div class="footerSection" id="ourCataloguesAndEmail">
+                <div class="footerHeader">Our Catalogues and E-mail</div>
+                <ul>
+                    <li><a href="/pls/ag/pc_email.signup_page?p_brand=AG">Sign Up for E-mail</a></li>
+                    <li><a href="/shop/catreq.php">Request a Catalogue</a></li>
+                    <li><a href="/agshop/static/ecatalog.jsp">View Our Digital Catalogue</a></li>
+                </ul>
+            </div>
+            <div class="footerSection" id="connectWithUs">
+                <div class="footerHeader">Connect with Us</div>
+                <ul>
+                    <li id="facebook"><a href="http://www.facebook.com/americangirl">Facebook</a></li>
+                    <li id="youtube"><a href="http://www.youtube.com/americangirl">YouTube</a></li>
+                    <li id="twitter"><a href="http://twitter.com/american_girl">Twitter</a></li>
+                    <li id="review"><a href="/agshop/static/reviews.jsp">Write a Product Review</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="disclaimers shadow_top_footer">
+        <div class="privacy"> Please read our <a href="#" onclick="alert('we defend your privacy with Smith and Wesson');">PRIVACY STATEMENT</a> and <a href="#" onclick="alert('you buy it, we send it to you');">TERMS AND CONDITIONS</a> when you visit our site.</div>
+        <div class="legal"> Copyright &copy; <script type="text/javascript">var d = new Date(); document.write(d.getFullYear());</script>American Girl. All rights reserved. All American Girl marks are <a href="#" onclick="alert('Our Trademark');return false;">trademarks</a> of American Girl. </div>
+    </div>
+</footer>
+
+</body>
+</html>
