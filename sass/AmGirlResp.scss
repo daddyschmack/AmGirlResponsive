@@ -296,7 +296,7 @@ header{
     }
     .telLink{
       display: inline-block; /*this will change responsively*/
-      width: auto;
+      width: 6.25em;
       position: absolute;    /*we need to chagne this at breakbpoints*/
       right: 0;
       margin-top: 1.8%;     /*we need to chagne this at breakbpoints*/
@@ -560,6 +560,10 @@ header{
       position: relative;
       margin: 2% 0;
   }
+    .grid_image{
+      max-width: 100%;
+      width: 32%;
+    }
 
   }
 
@@ -766,6 +770,7 @@ footer{
   .telLink{
    margin-top: -8.5% !important;
    margin-right:4%;
+   width: auto !important;
 
   }
   .berry-GradientButton{
@@ -863,6 +868,7 @@ footer{
   html{background-color: green;}
   .telLink {
     margin-top: -12.5% !important;
+    width: auto !important;
   }
   .mobile_hide{
     display: none ;
@@ -883,6 +889,9 @@ footer{
      .shoppingActionsMenu {
       margin-top: -10.5% !important;
     }
+  }
+  .grid_image{
+    width: 49% !important;
   }
   .my-breakpoint.ui-grid-b .ui-block-a,
   .my-breakpoint.ui-grid-b .ui-block-b,
