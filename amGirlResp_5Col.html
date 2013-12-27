@@ -16,21 +16,57 @@
 </head>
 <body>
 <header>
+    <div id="verticalMenu_Header"><i class="fa fa-bars fa-2x"> </i>
+
+        <ul class="topLevelNavMenu">
+            <li class="topLevelItem"> <a href="#" class="topLevel_a">Activity</a>
+                <ul>
+                    <li><a href="#" onclick="javascript:alert('Let\'s Shop');">Shop</a></li>
+                    <li><a href="#" onclick="javascript:alert('Let\'s Play');">Play</a></li>
+                    <li><a href="#" onclick="javascript:alert('Find Stores');">Stores</a></li>
+                </ul>
+            </li>
+            <li class="topLevelItem"> <a href="#" class="topLevel_a">Topic Menu</a>
+                <ul>
+                    <li><a href="#" onclick="javascript:alert('Gift Guide');">Gift Guide</a></li>
+                    <li><a href="#" onclick="javascript:alert('Sale');">Sale</a></li>
+                    <li><a href="#" onclick="javascript:alert('What\'s New');">What's New</a></li>
+                    <li><a href="#" onclick="javascript:alert('Seasonal Categories');">Seasonal Category</a></li>
+                    <li><a href="#" onclick="javascript:alert('Doll Care');">Dolls Care</a></li> <!-- menu area1 left -->
+                </ul>
+            </li>
+            <li class="topLevelItem"> <a href="#" class="topLevel_a">Shop by Category</a>
+                <ul>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Dolls');">Dolls</a></li>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('BookStore');">Bookstore</a></li>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Clothing');">Clothing</a></li>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Furniture');">Furniture</a></li>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Accesories');">Accesories</a></li>
+                    <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Magazine');">Magazine</a></li>
+                </ul>
+            </li>
+            <li class="topLevelItem"> <a href="#" class="topLevel_a">About Me</a>
+                <ul class="linkMenu_horizontal linkMenu_Right">
+                    <li><a href="#" onclick="javascript:alert('My Account');">My Account</a></li>
+                    <li><a href="#" onclick="javascript:alert('Gift Registry');">Gift Registry</a></li>           <!--menu area1 right (account info) -->
+                </ul>
+            </li>
+        </ul>
+        </span>
+
+    </div>
+
     <span class="logoHolder">
-    <img src="img/AG_Logo_wText.png">
-       <!-- <span class="catchPhrase">Follow your inner star</span>-->
+    <!--<img src="img/AG_Logo_wText.png">-->
+
     </span>
     <!-- contains-->
      <span class="rightSideHeader">
         <span class="menuHolder">
              <ul class="checkoutMenu">
-                 <li>Shop</li>
-                 |
-                 <li>Play</li>
-                 |
-                 <li>Stores</li>
+                 <li>Shop</li> | <li>Play</li> | <li>Stores</li>
              </ul>
-             <a href="tel:+18003601861" class="telLink">800-361-1861</a>
+             <a class="telLink" href="tel:+18003601861"><span class="telLink mobile_hide">800-361-1861 </span><i class="fa fa-phone fa-2x mobile_show"></i></a>
        </span>
      <form id="searchForm" >
          <span class="searchHolder insetField">
@@ -43,7 +79,7 @@
 
 </header>
 <div id="content" class="content shadow_top">
-    <div id="2nd_Menu_Holder" class="Menu_Holder_body_1">
+    <div id="second_Menu_Holder" class="Menu_Holder_body_1">
         <ul class="linkMenu_horizontal categoryMenu">
             <li><a href="#" onclick="javascript:alert('Gift Guide');">Gift Guide</a></li> |
             <li><a href="#" onclick="javascript:alert('Sale');">Sale</a></li> |
@@ -56,7 +92,7 @@
             <li><a href="#" onclick="javascript:alert('Gift Registry');">Gift Registry</a></li>           <!--menu area1 right (account info) -->
         </ul>
     </div>
-    <div id="3rd_Menu-Holder" class="Menu_Holder_body_2">
+    <div id="third_Menu_Holder" class="Menu_Holder_body_2">
         <!-- menu area2 left (product categories)-->
         <ul class="product_Category_Link_Menu shadow_top">
             <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Dolls');">Dolls</a></li>
@@ -67,8 +103,9 @@
             <li class="innerGlow_Button"><a href="#" onclick="javascript:alert('Magazine');">Magazine</a></li>
         </ul>
         <ul class="shoppingActionsMenu shadow_top">
-            <li class="berry-GradientButton"><a href="#" onclick="javascript:alert('View Shopping Bag');">View Shopping Bag</a></li>
-            <li class="berry-GradientButton"><a href="#" onclick="javascript:alert('Checkout');">Checkout</a></li>
+            <li class="berry-GradientButton" id="viewBagLink"><a href="#" onclick="javascript:alert('View Shopping Bag');">View <span id="shoppingBagText" class="mobile_hide">Shopping</span> Bag
+                (5)</a></li>
+            <li class="berry-GradientButton" id="checkOutLink" ><a href="#" onclick="javascript:alert('Checkout');">Checkout</a></li>
         </ul>
     </div>
 
@@ -95,13 +132,13 @@
         Grid footer
         -->
     <div class="productArea">
-        <span class="filter_Expanded" style="background-color: white;">
+        <span class="filter_Expanded">
             <div class="level_2"> <a href="#" onclick="alert('Shop Dolls')">Shop Dolls</a></div>
             <div class="level_3"> <a href="#" onclick="alert('Should this Expand?')">By Product Line</a></div>
             <ul>
                 <li class="p_category"> <a href="#" onclick="alert('Historical Characters')">Historical Characters 	</a>
-                   <ul>
-                       <li class="product"> <a href="#" onclick="alert('Addy')">Addy</a></li>
+                    <ul>
+                        <li class="product"> <a href="#" onclick="alert('Addy')">Addy</a></li>
                         <li class="product"> <a href="#" onclick="alert('Caroline')">Caroline</a></li>
                         <li class="product"> <a href="#" onclick="alert('Josefina')">Josefina</a></li>
                         <li class="product"> <a href="#" onclick="alert('Kaya')">Kaya</a></li>
@@ -111,7 +148,7 @@
                         <li class="product"> <a href="#" onclick="alert('Mollie & Emily')">Mollie & Emily</a></li>
                         <li class="product"> <a href="#" onclick="alert('Rebecca')">Rebecca</a></li>
                     </ul>
-                 </li>
+                </li>
             </ul>
             <ul>
                 <li class="p_category"> <a href="#" onclick="alert('Girl of the Year: Saige')">Girl of the Year: Saige</a></li>
@@ -146,9 +183,20 @@
         </span>
         <span class="image_Area">
             <div class="banner_Area">
-                <img src="img/friendShipStory_Banner_wText.gif">
-                <!--<span class="imgText"> here we talk aboot the image</span>-->
+                <span class="bannerImgHolder">
+                    <img class="bannerImg" src="img/friendShipStory_Banner.gif">
+                </span>
+                <span class="imgText_5col">
+                    <span class="small_Headline">Historical Characters</span>
+                    <span class="inspire_Headline">Inspiration from America's past</span>
+                       <p>
+                           Mixing adventure with actual events, the stories of our historical characters bring to life important
+                           times for America. Each character stars in a six-book series that helps girls learn about friendship,
+                           courage, compassion, and, most of all, about themselves. These 18-inch dolls are for ages 8 and up.
+                       </p>
+                </span>
             </div>
+
              <div class="ui-grid-d my-breakpoint shadow_bottom">
                  <div class="ui-block-a"><img src="img/bittyBaby_wText.gif"> </div>
                  <div class="ui-block-b"><img src="img/bittyBaby_wText.gif"></div>
@@ -159,15 +207,20 @@
             <!-- we need to put a responsive grid here that can 2/3-1/3  
             we will add that next  for now, single div image-->
             <div class="GridArea_2 shadow_bottom">
-                <img src="img/GirlOfTheYear_3Part.gif">
+                <span class="leftSide58">
+                    <img src="img/girlOTY.png">
+                </span>
+                <span class="rightSide40">
+                    <img src="img/Carolyn_Bday.png">
+                </span>
             </div>
             <div class="grayBar bottomBox">
-                 <span class="big_Text">New Styles to celebrate</span><br>
-                <span class="small_Text">Find the latest looks for dolls and girls</span>
+                 <span class="big_Text">American Girl Dolls</span><br>
+                <span class="small_Text">A story of friendship</span>
                 <p>
-                    Mixing adventure with actual events, the stories of our historical characters bring to life important
-                    times for America. Each character stars in a six-book series that helps girls learn about friendship,
-                    courage, compassion, and most of all about themselves. These 18-inch dolls are for ages 8 and up.
+                 Every American Girl doll encourages hours of imagination and play--from dreaming up adventures
+                    to styling hair to sharing every little secret.  Whether her doll is from America's past or present day
+                     there's a friend for your favorite girl to love and learn from.
                 </p>
 
             </div>

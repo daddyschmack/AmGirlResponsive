@@ -441,6 +441,7 @@ header{
   box-sizing: border-box;
   text-decoration: none;
   width: 100%;
+  img{width: 100%;}
   ul:last-of-type{
     li:last-of-type{
    //   background-color: green;
@@ -508,6 +509,7 @@ header{
     box-sizing: border-box;
     .banner_Area{
       display: block;
+
         .bannerImgHolder{
            display: inline-block;
            width:57%;
@@ -519,6 +521,8 @@ header{
         //background-repeat: no-repeat;
         //background-size: 472px 319px;
        // background: url("../img/Img_Historical_Char_Main_noText.png") center right no-repeat;
+
+
       .imgText{
         display: inline-block;
         width: percentage(330/800);
@@ -530,6 +534,23 @@ header{
         background-color: #ffffff; // Old browsers
         @include filter-gradient(#ffffff, #f1dbff, vertical); // IE6-9
         @include background-image(linear-gradient(top, #ffffff 0%,#f1dbff 100%));
+        p{
+          margin: 8% 6% 3% 6%;
+
+          display: block;
+        }
+      }
+      .imgText_5col{
+        display: inline-block;
+        width: percentage(330/800);
+        font-size: (14px/16px)*1em;
+        vertical-align: top;
+        text-align: center;
+        padding: 8% 0 4.5% 0;
+        box-sizing: border-box;
+        background-color: rgba(255,216,161,1);/* Old Browsers */
+        @include filter-gradient( #fcfcfc, #ffd8a1, vertical); // IE6-9 fallback on horizontal gradient
+        @include background-image(linear-gradient( top, rgba(252,252,252,1) 0%, rgba(255,216,161,1) 100%));
         p{
           margin: 8% 6% 3% 6%;
 
@@ -563,6 +584,14 @@ header{
     .grid_image{
       max-width: 100%;
       width: 32%;
+    }
+    .leftSide58{
+      width: 58%;  /*this is for the 5 image col page, lower image, left side*/
+      display: inline-block;
+    }
+    .rightSide40{
+      width: 40%;  /*this is for the 5 image col page, lower image, right side*/
+      display: inline-block;
     }
 
   }
@@ -828,8 +857,17 @@ footer{
       ;
       }
     }
-    .imgText{
+    .imgText,.imgText_5col{
       width: 99% !important;
+    }
+    .leftSide58{
+      width: 100% !important;  /*this is for the 5 image col page, lower image, left side*/
+      display: block !important;
+
+    }
+    .rightSide40{
+      width: 100% !important;  /*this is for the 5 image col page, lower image, right side*/
+      display: block !important;
     }
   }
   /*.topLevelNavMenu,#vertMenuHolder ul ul {

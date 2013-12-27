@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8225511b-df19-4f8f-93ea-2331653bbbe8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/amGirlResp-floatedImages.html" />
+    <list default="true" id="8225511b-df19-4f8f-93ea-2331653bbbe8" name="Default" comment="added a specific width for">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/friendShipStory_Banner." afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comps/1.png" afterPath="$PROJECT_DIR$/comps/1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/22d9bd499a541bf9b56fa766a0a2e30a27f3f189/AmGirlResp.scssc" afterPath="$PROJECT_DIR$/.sass-cache/22d9bd499a541bf9b56fa766a0a2e30a27f3f189/AmGirlResp.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/AmGirlResp.css" afterPath="$PROJECT_DIR$/stylesheets/AmGirlResp.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/AmGirlResp.scss" afterPath="$PROJECT_DIR$/sass/AmGirlResp.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/amGirlResp_5Col.html" afterPath="$PROJECT_DIR$/amGirlResp_5Col.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AmGirlResponsive.iws" />
@@ -29,10 +31,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AmGirlResp.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AmGirlResp.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="514" column="31" selection-start="11050" selection-end="11050" vertical-scroll-proportion="-4.56" vertical-offset="7482" max-vertical-offset="14490">
+            <state line="443" column="19" selection-start="9670" selection-end="9670" vertical-scroll-proportion="0.78215766" vertical-offset="6268" max-vertical-offset="15195">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="amGirlResp_5Col.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amGirlResp_5Col.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="209" column="39" selection-start="12155" selection-end="12165" vertical-scroll-proportion="-11.166667" vertical-offset="2867" max-vertical-offset="4965">
               <folding />
             </state>
           </provider>
@@ -41,16 +52,16 @@
       <file leaf-file-name="AmGirlResp.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/AmGirlResp.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="998" column="0" selection-start="23959" selection-end="23959" vertical-scroll-proportion="-32.307693" vertical-offset="14130" max-vertical-offset="15060">
+            <state line="1061" column="0" selection-start="25953" selection-end="25953" vertical-scroll-proportion="0.0" vertical-offset="15075" max-vertical-offset="16005">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="amGirlResp-floatedImages.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="amGirlResp-floatedImages.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/amGirlResp-floatedImages.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="203" column="69" selection-start="11778" selection-end="11778" vertical-scroll-proportion="0.28248587" vertical-offset="2895" max-vertical-offset="4785">
+            <state line="197" column="18" selection-start="10558" selection-end="11393" vertical-scroll-proportion="-11.25" vertical-offset="2685" max-vertical-offset="4800">
               <folding />
             </state>
           </provider>
@@ -59,7 +70,7 @@
       <file leaf-file-name="TestAlignment.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestAlignment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="85" selection-start="5526" selection-end="5526" vertical-scroll-proportion="-27.92" vertical-offset="659" max-vertical-offset="2460">
+            <state line="137" column="85" selection-start="5526" selection-end="5526" vertical-scroll-proportion="-58.166668" vertical-offset="659" max-vertical-offset="2460">
               <folding />
             </state>
           </provider>
@@ -91,19 +102,18 @@
         <option value="$PROJECT_DIR$/responsiveGrid.html" />
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/sass/AmGirlResp.css" />
-        <option value="$PROJECT_DIR$/amGirlResp_5Col.html" />
         <option value="$PROJECT_DIR$/TestAlignment.html" />
         <option value="$PROJECT_DIR$/stylesheets/AmGirlResp.css" />
         <option value="$PROJECT_DIR$/amGirlResp.html" />
-        <option value="$PROJECT_DIR$/sass/AmGirlResp.scss" />
         <option value="$PROJECT_DIR$/amGirlResp-floatedImages.html" />
+        <option value="$PROJECT_DIR$/amGirlResp_5Col.html" />
+        <option value="$PROJECT_DIR$/sass/AmGirlResp.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
-    <option name="y" value="22" />
-    <option name="width" value="1407" />
+    <option name="y" value="24" />
+    <option name="width" value="1077" />
     <option name="height" value="825" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -203,8 +213,8 @@
     <property name="options.lastSelected" value="settings" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -227,14 +237,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -245,15 +247,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -313,11 +323,23 @@
       <created>1387851353025</created>
       <updated>1387851353025</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fixed the issue with the text and image banner image above the product list/grid">
+      <created>1388068290686</created>
+      <updated>1388068290686</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fixed the image grid to display 3 across then drop to 2 across at lower resolution">
+      <created>1388069705295</created>
+      <updated>1388069705295</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added a specific width for tellink in full mode, changed to auto in media queries">
+      <created>1388161879496</created>
+      <updated>1388161879496</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="22" width="1407" height="825" extended-state="0" />
+    <frame x="0" y="24" width="1077" height="825" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.49964464" order="0" side_tool="false" content_ui="tabs" />
@@ -325,11 +347,11 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23454158" sideWeight="0.8164384" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30640668" sideWeight="0.8164384" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18356164" sideWeight="0.50035536" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18356164" sideWeight="0.49964464" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18356164" sideWeight="0.50046426" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18356164" sideWeight="0.49953574" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -353,7 +375,10 @@
     <MESSAGE value="general updates, I put the default values in the Sass code.  I am working with the responsive vertical menu.  I did implement the phone link responsive icon." />
     <MESSAGE value="got the header looking right in the light green phase.. (768)  Need to fix up the bottom area..  Just  about finished, it's working, but I could have done it better. I will next iteration." />
     <MESSAGE value="got 1st comp working on two responsive levels.  But I need help with the bottom images." />
-    <option name="LAST_COMMIT_MESSAGE" value="got 1st comp working on two responsive levels.  But I need help with the bottom images." />
+    <MESSAGE value="fixed the issue with the text and image banner image above the product list/grid" />
+    <MESSAGE value="fixed the image grid to display 3 across then drop to 2 across at lower resolution" />
+    <MESSAGE value="added a specific width for tellink in full mode, changed to auto in media queries" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a specific width for tellink in full mode, changed to auto in media queries" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -361,11 +386,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/amGirlResp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="64" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="300">
-          <folding>
-            <element signature="tag#div#1;tag#div#0;tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="12" column="64" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="300" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.scss">
@@ -377,20 +398,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="465">
-          <folding>
-            <marker date="1388067726000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
+        <state line="6" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="465" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/amGirlResp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="64" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="300">
-          <folding>
-            <element signature="tag#div#1;tag#div#0;tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="12" column="64" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="300" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/AG_Logo.png">
@@ -400,81 +413,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/fonts/agenda/agenda-bold-webfont.otf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2895">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amGirlResp_5Col.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="18" selection-start="8937" selection-end="8937" vertical-scroll-proportion="-19.916666" vertical-offset="1952" max-vertical-offset="4170">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2895" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="4407" selection-end="4407" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="900">
-          <folding>
-            <marker date="1388067726000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
+        <state line="54" column="0" selection-start="4407" selection-end="4407" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="900" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="66" selection-end="66" vertical-scroll-proportion="0.023923445" vertical-offset="0" max-vertical-offset="627">
-          <folding />
-        </state>
+        <state line="1" column="19" selection-start="66" selection-end="66" vertical-scroll-proportion="0.023923445" vertical-offset="0" max-vertical-offset="627" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/responsiveGrid.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="153" selection-end="256" vertical-scroll-proportion="-0.96153843" vertical-offset="0" max-vertical-offset="2250">
-          <folding />
-        </state>
+        <state line="5" column="1" selection-start="153" selection-end="256" vertical-scroll-proportion="-0.96153843" vertical-offset="0" max-vertical-offset="2250" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html_holder">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="26" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+        <state line="14" column="26" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amGirlResp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="214" column="73" selection-start="12355" selection-end="12355" vertical-scroll-proportion="-11.54" vertical-offset="2633" max-vertical-offset="4770" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/AmGirlResp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1061" column="0" selection-start="25953" selection-end="25953" vertical-scroll-proportion="0.0" vertical-offset="15075" max-vertical-offset="16005">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestAlignment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="85" selection-start="5526" selection-end="5526" vertical-scroll-proportion="-27.92" vertical-offset="659" max-vertical-offset="2460">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="514" column="31" selection-start="11050" selection-end="11050" vertical-scroll-proportion="-4.56" vertical-offset="7482" max-vertical-offset="14490">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amGirlResp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="214" column="73" selection-start="12355" selection-end="12355" vertical-scroll-proportion="-11.54" vertical-offset="2633" max-vertical-offset="4770">
-          <folding>
-            <element signature="tag#div#1;tag#div#0;tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/AmGirlResp.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="998" column="0" selection-start="23959" selection-end="23959" vertical-scroll-proportion="-32.307693" vertical-offset="14130" max-vertical-offset="15060">
+        <state line="137" column="85" selection-start="5526" selection-end="5526" vertical-scroll-proportion="-58.166668" vertical-offset="659" max-vertical-offset="2460">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/amGirlResp-floatedImages.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="203" column="69" selection-start="11778" selection-end="11778" vertical-scroll-proportion="0.28248587" vertical-offset="2895" max-vertical-offset="4785">
+        <state line="197" column="18" selection-start="10558" selection-end="11393" vertical-scroll-proportion="-11.25" vertical-offset="2685" max-vertical-offset="4800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amGirlResp_5Col.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="209" column="39" selection-start="12155" selection-end="12165" vertical-scroll-proportion="-11.166667" vertical-offset="2867" max-vertical-offset="4965">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="443" column="19" selection-start="9670" selection-end="9670" vertical-scroll-proportion="0.78215766" vertical-offset="6268" max-vertical-offset="15195">
           <folding />
         </state>
       </provider>
