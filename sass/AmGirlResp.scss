@@ -161,7 +161,62 @@ body{
 
 }
 
-//img{max-width:100%;}
+#c_carousel{
+  position: relative;
+  height: 10%;
+   .pager {
+    margin:0 auto;
+    text-align: center;
+    width: 100%;
+    display:none;
+
+  }
+  /* Style the pagination button with dot */
+  /* Same as prev and next button, we use the same css sprite */
+    .pager a {
+    margin: 0 5px 0 0;
+    text-decoration: none;
+    display:inline-block;
+    width:32%;
+    height:8px;
+    /*background: transparent url('images/carousel_control.png') no-repeat -2px -32px;*/
+    text-indent:-999em;
+    background-color: gray;
+    }
+    .pager a.selected {
+    text-decoration: underline;
+    /*background: transparent url('images/carousel_control.png') no-repeat -12px -32px;*/
+    background-color: red;
+    }
+  }
+
+#carousel img{
+  max-width:100%;
+  width:159px;
+  height:239px;
+}
+
+  .carouselArrow_Left{
+    position: absolute;
+    width: 50%;
+    background: url("../img/leftArrow.png") no-repeat left;
+    background-size: 11%;
+    border: 1px solid green;
+    height: 15%;
+    margin-top: -18%;
+  }
+  .carouselArrow_Right{
+    position: absolute;
+    width: 50%;
+    right: 0;
+    background: url("../img/rightArrow.png") no-repeat right;
+    background-size: 7%;
+    border: 1px solid green;
+    height: 15%;
+    margin-top: -18%;
+  }
+
+    //img{max-width:100%;}
 /*link styling */
 .berry-GradientButton {
   background-color: $berry-medium;
@@ -741,7 +796,7 @@ footer{
 @media all and (max-width: 768px){
 
   .mobile_hide{
-    display: none!important ;
+    display: none !important ;
   }
 
   .mobile_show{
@@ -869,6 +924,16 @@ footer{
       width: 100% !important;  /*this is for the 5 image col page, lower image, right side*/
       display: block !important;
     }
+
+    #c_carousel .pager {
+      display:block !important;
+
+    }
+    /* Style the pagination button with dot */
+    /* Same as prev and next button, we use the same css sprite */
+    #c_carousel .pager a {
+      width: 32% !important;
+    }
   }
   /*.topLevelNavMenu,#vertMenuHolder ul ul {
     display: none;
@@ -904,6 +969,9 @@ footer{
 }
 @media all and (max-width: 30em) {
   html{background-color: green;}
+  .content #c_carousel .pager a {
+    width: 18% !important;
+  }
   .telLink {
     margin-top: -12.5% !important;
     width: auto !important;
