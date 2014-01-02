@@ -6,12 +6,12 @@ $berry-light:#D98AB0;
 $berry-medium:#A10A4E;//bottom of gradient button
 $berry-hot:#CB006D; //top of gradient button
 $berry-borders: #B43A69; //seperators of li and borders
-$max-width: 1120px;
-$filter_Expanded_Px_Width: (180px); //width of div + right margin
+$max-width: 1024px;
+$filter_Expanded_Px_Width: (191px); //width of div + right margin
 $filter_Expanded_Pct_Width: percentage($filter_Expanded_Px_Width/$max-width);
-$image_Area_Px_Width: (1114px - $filter_Expanded_Px_Width);
-$image_Area_Pct_Width: percentage(($image_Area_Px_Width+ 50px)/$max-width);
-$banner_width:800px;
+$image_Area_Px_Width: (800px - $filter_Expanded_Px_Width);
+$image_Area_Pct_Width: percentage(($image_Area_Px_Width +50px)/$max-width);
+$banner_width:800px; //not  used
 
 
 @mixin verticalMenuStyle{
@@ -201,7 +201,7 @@ body{
     width: 50%;
     background: url("../img/leftArrow.png") no-repeat left;
     background-size: 11%;
-    border: 1px solid green;
+    border: 1px solid rgba(235,232,232,.5);
     height: 15%;
     margin-top: -18%;
   }
@@ -211,7 +211,7 @@ body{
     right: 0;
     background: url("../img/rightArrow.png") no-repeat right;
     background-size: 7%;
-    border: 1px solid green;
+    border: 1px solid rgba(235,232,232,.5);;
     height: 15%;
     margin-top: -18%;
   }
@@ -556,7 +556,7 @@ header{
   .image_Area{
     margin: 1% 0 0 0;
     display: inline-block;
-    width: 73.5%; //$image_Area_Pct_Width;
+    width: 75.5%; //$image_Area_Pct_Width; //this isn't working correclty
     vertical-align: top;
     border: 1px solid blue;
     padding:0 0;
@@ -627,6 +627,9 @@ header{
         margin-top:1%;
 
       }
+    }
+    #c_carousel{
+      display:none;
     }
     .div_gridHolder{
       white-space: pre;
@@ -894,9 +897,11 @@ footer{
   .content{
     padding-top:1% !important;
     margin:2% 1%;
-
+  .productArea{
+    width: auto !important;
     .filter_Expanded{
       display: block !important;
+      width: auto !important;
     }
     .image_Area{
       display: block !important;
@@ -925,15 +930,25 @@ footer{
       display: block !important;
     }
 
-    #c_carousel .pager {
+    .ui-grid-d {
+      display: none;
+    }
+
+
+    #c_carousel{
       display:block !important;
 
+      #c_carousel .pager {
+        display:block !important;
+
+      }
+      /* Style the pagination button with dot */
+      /* Same as prev and next button, we use the same css sprite */
+      #c_carousel .pager a {
+        width: 32% !important;
+      }
     }
-    /* Style the pagination button with dot */
-    /* Same as prev and next button, we use the same css sprite */
-    #c_carousel .pager a {
-      width: 32% !important;
-    }
+  }
   }
   /*.topLevelNavMenu,#vertMenuHolder ul ul {
     display: none;
@@ -968,7 +983,7 @@ footer{
   */
 }
 @media all and (max-width: 30em) {
-  html{background-color: green;}
+
   .content #c_carousel .pager a {
     width: 18% !important;
   }
@@ -999,11 +1014,15 @@ footer{
   .grid_image{
     width: 49% !important;
   }
-  .my-breakpoint.ui-grid-b .ui-block-a,
-  .my-breakpoint.ui-grid-b .ui-block-b,
-  .my-breakpoint.ui-grid-b .ui-block-c  {
-    width: 50%;
-    float: none;
+
+  #carousel{
+    background-color: rgba(255,255,224, .25);
+  }
+  #carousel img {
+    max-width: 60% !important;
+   //width: 159px;
+    //height: 239px;
+    //margin-left:-17% !important;
   }
   //.my-breakpoint.ui-grid-b .ui-block-a { clear: left; }
 
@@ -1030,6 +1049,10 @@ footer{
     width: 100%;
     float:none;
   }
+  #carousel img {
+    margin-left:2.5% !important;
+  }
+
 }
 
 

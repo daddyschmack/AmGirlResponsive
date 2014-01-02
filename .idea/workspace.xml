@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8225511b-df19-4f8f-93ea-2331653bbbe8" name="Default" comment="">
+    <list default="true" id="8225511b-df19-4f8f-93ea-2331653bbbe8" name="Default" comment="fixing some width issues, and how caroufredsel and the image in the five column version expand and display">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/22d9bd499a541bf9b56fa766a0a2e30a27f3f189/AmGirlResp.scssc" afterPath="$PROJECT_DIR$/.sass-cache/22d9bd499a541bf9b56fa766a0a2e30a27f3f189/AmGirlResp.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/AmGirlResp.css" afterPath="$PROJECT_DIR$/stylesheets/AmGirlResp.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/AmGirlResp.scss" afterPath="$PROJECT_DIR$/sass/AmGirlResp.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/amGirlResp_5Col.html" afterPath="$PROJECT_DIR$/amGirlResp_5Col.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.rb" afterPath="$PROJECT_DIR$/config.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AmGirlResponsive.iws" />
@@ -33,7 +32,7 @@
       <file leaf-file-name="AmGirlResp.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="972" column="13" selection-start="21184" selection-end="21184" vertical-scroll-proportion="0.3977695" vertical-offset="14259" max-vertical-offset="16215">
+            <state line="558" column="13" selection-start="12025" selection-end="12025" vertical-scroll-proportion="0.41620627" vertical-offset="8144" max-vertical-offset="16560">
               <folding />
             </state>
           </provider>
@@ -42,9 +41,16 @@
       <file leaf-file-name="amGirlResp_5Col.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/amGirlResp_5Col.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="907" selection-end="907" vertical-scroll-proportion="-5.1" vertical-offset="0" max-vertical-offset="7500">
+            <state line="28" column="0" selection-start="1322" selection-end="1322" vertical-scroll-proportion="-10.0" vertical-offset="180" max-vertical-offset="7575">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js">
+          <provider selected="true" editor-type-id="httpFileEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -58,7 +64,7 @@
       <file leaf-file-name="AmGirlResp.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/AmGirlResp.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="0" selection-start="3304" selection-end="3304" vertical-scroll-proportion="0.0" vertical-offset="14222" max-vertical-offset="17160">
+            <state line="400" column="0" selection-start="9931" selection-end="9931" vertical-scroll-proportion="0.0" vertical-offset="6105" max-vertical-offset="17445">
               <folding />
             </state>
           </provider>
@@ -67,7 +73,7 @@
       <file leaf-file-name="amGirlResp-floatedImages.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/amGirlResp-floatedImages.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="65" selection-end="65" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="4800">
+            <state line="2" column="6" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="4800">
               <folding />
             </state>
           </provider>
@@ -76,7 +82,7 @@
       <file leaf-file-name="TestAlignment.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestAlignment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="85" selection-start="5526" selection-end="5526" vertical-scroll-proportion="-58.166668" vertical-offset="659" max-vertical-offset="2460">
+            <state line="137" column="85" selection-start="5526" selection-end="5526" vertical-scroll-proportion="0.0" vertical-offset="2055" max-vertical-offset="2460">
               <folding />
             </state>
           </provider>
@@ -111,17 +117,17 @@
         <option value="$PROJECT_DIR$/amGirlResp.html" />
         <option value="$PROJECT_DIR$/amGirlResp-floatedImages.html" />
         <option value="$PROJECT_DIR$/config.rb" />
-        <option value="$PROJECT_DIR$/amGirlResp_5Col.html" />
         <option value="$PROJECT_DIR$/stylesheets/AmGirlResp.css" />
+        <option value="ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js" />
+        <option value="$PROJECT_DIR$/amGirlResp_5Col.html" />
         <option value="$PROJECT_DIR$/sass/AmGirlResp.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-23" />
-    <option name="y" value="41" />
-    <option name="width" value="1660" />
-    <option name="height" value="1127" />
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="827" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -149,7 +155,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -184,28 +189,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="settings" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../carouFredSel" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-  </component>
-  <component name="PublishConfig">
-    <servers>
-      <server id="d0e407fb-e266-49f8-aeb0-a48707765739">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-    </servers>
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="SearchEverywhereHistory" value="toolbar" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -216,7 +213,12 @@
       <recent name="$PROJECT_DIR$/sass" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.amGirlResp_5Col.html">
+    <configuration default="false" name="amGirlResp_5Col.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/AmGirlResponsive/amGirlResp_5Col.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -253,7 +255,14 @@
       <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.amGirlResp_5Col.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.amGirlResp_5Col.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
@@ -323,32 +332,41 @@
       <created>1388386206805</created>
       <updated>1388386206805</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="adding unifying function for caroufredsel, it quit working on refresh, go figure.. Added the paging bar per the comp.">
+      <created>1388466498111</created>
+      <updated>1388466498111</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-23" y="41" width="1660" height="1127" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="827" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.49964464" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19879518" sideWeight="0.87015504" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19861111" sideWeight="0.5155039" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48449612" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18356164" sideWeight="0.50042844" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12984496" sideWeight="0.49957156" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13387978" sideWeight="0.49957156" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.49964464" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -368,15 +386,66 @@
     <MESSAGE value="added a specific width for tellink in full mode, changed to auto in media queries" />
     <MESSAGE value="fixed up the 5 column toy page.." />
     <MESSAGE value="added caroufredsel and made it hide or show depend on screen width/css property.  Needs to by style now.." />
-    <option name="LAST_COMMIT_MESSAGE" value="added caroufredsel and made it hide or show depend on screen width/css property.  Needs to by style now.." />
+    <MESSAGE value="adding unifying function for caroufredsel, it quit working on refresh, go figure.. Added the paging bar per the comp." />
+    <MESSAGE value="fixing some width issues, and how caroufredsel and the image in the five column version expand and display" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing some width issues, and how caroufredsel and the image in the five column version expand and display" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/amGirlResp_5Col.html</url>
+          <line>27</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.css">
+    <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="465" />
+        <state line="1015" column="6" selection-start="21899" selection-end="21899" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="16425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amGirlResp_5Col.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="384" column="16" selection-start="18955" selection-end="18955" vertical-scroll-proportion="0.0" vertical-offset="5404" max-vertical-offset="7590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/BittyBaby.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/AmGirlResp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="386" column="0" selection-start="9578" selection-end="9578" vertical-scroll-proportion="0.0" vertical-offset="5895" max-vertical-offset="17250">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amGirlResp-floatedImages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="4800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAlignment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="85" selection-start="5526" selection-end="5526" vertical-scroll-proportion="0.0" vertical-offset="2055" max-vertical-offset="2460">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/amGirlResp.html">
@@ -416,14 +485,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestAlignment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="85" selection-start="5526" selection-end="5526" vertical-scroll-proportion="-58.166668" vertical-offset="659" max-vertical-offset="2460">
+        <state line="137" column="85" selection-start="5526" selection-end="5526" vertical-scroll-proportion="0.0" vertical-offset="2055" max-vertical-offset="2460">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/amGirlResp-floatedImages.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="65" selection-end="65" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="4800">
+        <state line="2" column="6" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="4800">
           <folding />
         </state>
       </provider>
@@ -440,28 +509,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="17" selection-start="64" selection-end="64" vertical-scroll-proportion="0.01724138" vertical-offset="0" max-vertical-offset="870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amGirlResp_5Col.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="907" selection-end="907" vertical-scroll-proportion="-5.1" vertical-offset="0" max-vertical-offset="7500">
-          <folding />
-        </state>
+        <state line="1" column="17" selection-start="64" selection-end="64" vertical-scroll-proportion="0.01724138" vertical-offset="0" max-vertical-offset="870" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/AmGirlResp.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="0" selection-start="3304" selection-end="3304" vertical-scroll-proportion="0.0" vertical-offset="14222" max-vertical-offset="17160">
+        <state line="400" column="0" selection-start="9931" selection-end="9931" vertical-scroll-proportion="0.0" vertical-offset="6105" max-vertical-offset="17445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amGirlResp_5Col.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1322" selection-end="1322" vertical-scroll-proportion="-10.0" vertical-offset="180" max-vertical-offset="7575">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/AmGirlResp.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="972" column="13" selection-start="21184" selection-end="21184" vertical-scroll-proportion="0.3977695" vertical-offset="14259" max-vertical-offset="16215">
+        <state line="558" column="13" selection-start="12025" selection-end="12025" vertical-scroll-proportion="0.41620627" vertical-offset="8144" max-vertical-offset="16560">
           <folding />
         </state>
       </provider>

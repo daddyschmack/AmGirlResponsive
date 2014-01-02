@@ -20,18 +20,15 @@
     <script type="text/javascript">
         $(document).ready(function() {
             var w = $(window).width();
-            alert(w);
+            console.error('the screen width is' + w);
             // Using default configuration
            // $('#carousel').carouFredSel();
 debugger;
             // Using custom configuration
-           if(testClass('mobile')==true){
-
-
           $(window).resize(function(){ // test to see if the window is resizing, and execute the routine
-              debugger;
-                   var w = $(window).width();
 
+                   var w = $(window).width();
+              if(testClass('mobile')== true){
                    if (w < 480){
                        loadCarousel(w)
                        /*
@@ -79,10 +76,18 @@ debugger;
                    else {
                        $('#carousel').trigger('destroy')
                    }
+                }
           });
 
+            if(testClass('mobile')== true){
                loadCarousel(w) ;
-        }});
+            }else{
+                if( $('#carousel').carouFredSel){
+                    $('#carousel').trigger('destroy')
+                }
+            }
+
+        });
 
         var testClass = function(selectorName, targetProperty, targetValue){
            try{
@@ -125,7 +130,7 @@ debugger;
 
 
                    if(screenWidth < defaultConfig.phoneWidth){
-                       alert(screenWidth);
+                   //    alert(screenWidth);
                        displayColumns = defaultConfig.phoneDisplayItems;
                     }
                    else if (screenWidth < defaultConfig.tabletWidth){
@@ -173,7 +178,7 @@ debugger;
                });
 
            }catch(e){
-                error.log('Error in the loadCarousel function ' + e)
+                console.log('Error in the loadCarousel function ' + e)
             }
         }
 
@@ -362,21 +367,21 @@ debugger;
                 </span>
             </div>
 
-            <!-- <div class="ui-grid-d my-breakpoint shadow_bottom">
+            <div class="ui-grid-d my-breakpoint shadow_bottom">
                  <div class="ui-block-a"><img src="img/bittyBaby_wText.gif"> </div>
                  <div class="ui-block-b"><img src="img/bittyBaby_wText.gif"></div>
                  <div class="ui-block-c"><img src="img/bittyBaby_wText.gif"></div>
                  <div class="ui-block-d"><img src="img/bittyBaby_wText.gif"></div>
                  <div class="ui-block-e"><img src="img/bittyBaby_wText.gif"></div>
-             </div>-->
+             </div>
             <div id="c_carousel" >
                 <div id="pager" class="pager"></div>
-             <div id="carousel" class="ui-grid-d my-breakpoint shadow_bottom">
-                 <div class="ui-block-a"><img src="img/bittyBaby_wText.gif"> </div>
-                 <div class="ui-block-b"><img src="img/bittyBaby_wText.gif"></div>
-                 <div class="ui-block-c"><img src="img/bittyBaby_wText.gif"></div>
-                 <div class="ui-block-d"><img src="img/bittyBaby_wText.gif"></div>
-                 <div class="ui-block-e"><img src="img/bittyBaby_wText.gif"></div>
+             <div id="carousel" class="shadow_bottom">
+                <img src="img/bittyBaby_wText.gif">
+                <img src="img/bittyBaby_wText.gif">
+                <img src="img/bittyBaby_wText.gif">
+                <img src="img/bittyBaby_wText.gif">
+                <img src="img/bittyBaby_wText.gif">
               </div>
                 <a href="#" id="prev" class="carouselArrow_Left mobile_show"></a>
                 <a href="#" id="next" class="carouselArrow_Right mobile_show"></a>
